@@ -149,14 +149,14 @@ CODE-RACE/
 ├── electron-main.cjs           # Electron entry point
 ├── package.json                # Dependencies and scripts
 ├── package-lock.json           # Locked dependency versions
-├── GAME_SPEC.md                # Official game specification
+├── GAME_RULEBOOK.md            # Official game rulebook
 ├── README.md
 └── .gitignore
 ```
 
 ## Project Documentation
 
-- [Game Specification](GAME_SPEC.md) — Gameplay rules, mechanics, and design requirements.
+- [Game Rulebook](GAME_RULEBOOK.md) — Official rules, house effects, and gameplay instructions.
 - [Windows Build Guide](prototype/neon-city/BUILD-WINDOWS.md) — Instructions for generating Windows distributions.
 
 ## Educational Purpose
