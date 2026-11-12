@@ -1,3 +1,5 @@
+![CODE RACE — The Programmers Challenge](prototype/neon-city/CodeRaceBanner.png)
+
 # CODE RACE — The Programmers' Challenge
 
 A team-based educational programming game set in **NEON CITY**, a cyberpunk-inspired 3D world where players learn Python through challenges, strategy, and collaboration.
