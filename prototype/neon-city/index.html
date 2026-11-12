@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CODE RACE // NEON CITY PROTOTYPE</title>
+  <link rel="stylesheet" href="neon-city.css">
+  <link rel="stylesheet" href="src/intro/intro.css">
+  <script type="importmap">
+    { "imports": { "three": "../../node_modules/three/build/three.module.js", "three/addons/": "../../node_modules/three/examples/jsm/" } }
+  </script>
+</head>
+<body>
+  <main class="city-shell">
+    <div id="scene" aria-label="Protótipo visual 2.5D de Neon City"></div>
+    <div class="atmosphere" aria-hidden="true"></div>
+    <header class="system-ui">
+      <div class="brand-lockup">
+        <span class="brand-mark">CR</span>
+        <div>
+          <strong>CODE RACE</strong>
+          <span>NEON CITY / PROTÓTIPO VISUAL</span>
+        </div>
+      </div>
+      <div class="system-readout"><span class="status-dot"></span> NEXUS LINK <b>ONLINE</b> <button id="open-professor-center" type="button">CENTRAL DO PROFESSOR</button></div>
+    </header>
+    <section class="status-line" aria-live="polite">
+      <span class="status-label">STATUS DA CIDADE</span>
+      <span id="status-message">CIDADE ATIVA // DADOS SINCRONIZADOS</span>
+    </section>
+    <aside id="final-podium" class="final-podium" aria-label="Classificação da Casa 60" hidden>
+      <h2>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4h8v4a4 4 0 0 1-8 0V4Zm0 2H4v2a4 4 0 0 0 4 4m8-6h4v2a4 4 0 0 1-4 4m-4 0v4m-4 4h8m-6-4h4v4h-4z"/></svg>
+        PÓDIO NEXUS
+      </h2>
+      <ol id="final-podium-list">
+        <li data-podium-place="1"><span class="podium-rank">1º</span><img alt="" hidden><span class="podium-name">—</span></li>
+        <li data-podium-place="2"><span class="podium-rank">2º</span><img alt="" hidden><span class="podium-name">—</span></li>
+        <li data-podium-place="3"><span class="podium-rank">3º</span><img alt="" hidden><span class="podium-name">—</span></li>
+      </ol>
+    </aside>
+    <aside id="global-event-indicator" class="global-event-indicator" aria-live="polite" hidden>
+      <small>EVENTO GLOBAL ATIVO</small>
+      <strong id="global-event-name"></strong>
+      <span id="global-event-description"></span>
+      <button id="global-event-proceed" type="button">PROSSEGUIR</button>
+    </aside>
+    <section class="turn-hud" aria-live="polite">
+      <div class="turn-team"><span id="turn-portrait"></span><div><small>GANGUE ATUAL</small><strong id="turn-team-name">CRIMSON</strong><span id="turn-firewall" class="firewall-badge" hidden>FIREWALL ATIVO</span><span id="turn-state">AGUARDANDO LANÇAMENTO</span></div></div>
+      <div class="turn-meta"><span id="turn-position">CASA 01</span><span id="turn-hacks">HACKS 02</span></div>
+      <button id="roll-dice" type="button">ROLAR DADO</button>
+      <section id="hack-actions" class="hack-actions" aria-label="HACKs da gangue atual"></section>
+      <aside id="hack-tooltip-panel" class="hack-tooltip-panel" aria-live="polite" hidden>
+        <strong id="hack-tooltip-title"></strong>
+        <span id="hack-tooltip-description"></span>
+      </aside>
+    </section>
+    <section id="professor-overlay" class="professor-overlay" hidden aria-labelledby="professor-title">
+      <div class="professor-modal" role="dialog" aria-modal="true" aria-labelledby="professor-title">
+        <header class="professor-header">
+          <div><span class="professor-kicker">CODE RACE // SALA DE CONTROLE</span><h1 id="professor-title">CENTRAL DO PROFESSOR</h1><p>Gerencie a partida sem sair do mapa.</p></div>
+          <button id="close-professor-center" class="professor-close" type="button" aria-label="Fechar Central do Professor">×</button>
+        </header>
+        <div class="professor-content">
+          <section class="professor-section match-section">
+            <div class="section-heading"><div><span class="section-index">01</span><h2>Controle da partida</h2></div><span id="admin-turn-state" class="state-chip"></span></div>
+            <div class="match-controls">
+              <button id="pause-game" type="button" data-help="pause">PAUSAR</button><button class="help-button" type="button" aria-label="Ajuda: pausar" data-tooltip="Pausa a partida para impedir novas rolagens.">i</button>
+              <button id="continue-game" type="button" data-help="continue">CONTINUAR</button><button class="help-button" type="button" aria-label="Ajuda: continuar" data-tooltip="Retoma a partida pausada.">i</button>
+              <button id="next-turn" type="button" data-help="next">PRÓXIMO TURNO</button><button class="help-button" type="button" aria-label="Ajuda: próximo turno" data-tooltip="Passa o controle para a próxima equipe na ordem.">i</button>
+              <button id="previous-turn" type="button" data-help="previous">TURNO ANTERIOR</button><button class="help-button" type="button" aria-label="Ajuda: turno anterior" data-tooltip="Volta o controle para a equipe anterior na ordem.">i</button>
+            </div>
+            <p class="section-note">Em jogo: <strong id="admin-current-team"></strong> · Casa <strong id="admin-current-position"></strong> · HACKs <strong id="admin-current-hacks"></strong></p>
+          </section>
+          <section class="professor-section teams-section">
+            <div class="section-heading"><div><span class="section-index">02</span><h2>Equipes</h2></div><button id="add-team" class="subtle-button" type="button">+ ADICIONAR EQUIPE</button></div>
+            <p class="section-note">De 2 a 8 gangues. A ordem atual dos turnos é mantida.</p>
+            <div id="admin-team-list" class="admin-team-list"></div>
+            <form id="team-editor" class="team-editor" hidden>
+              <h3 id="team-editor-title">Nova equipe</h3>
+              <label>Nome da gangue<input id="team-name" name="name" maxlength="28" required></label>
+              <label>Integrantes<input id="team-members" name="members" placeholder="Separe por vírgulas" required></label>
+              <div class="editor-row">
+                <label>Cor<input id="team-color" name="color" type="color" value="#4ee6e4"></label>
+                <label>Avatar<select id="team-avatar" name="avatar"></select></label>
+              </div>
+              <div class="editor-actions"><button type="submit">SALVAR EQUIPE</button><button id="cancel-team-edit" class="subtle-button" type="button">CANCELAR</button></div>
+            </form>
+          </section>
+          <section class="professor-section corrections-section">
+            <div class="section-heading"><div><span class="section-index">03</span><h2>Correções manuais</h2></div><button class="help-button" type="button" aria-label="Ajuda para correções" data-tooltip="Correções alteram o estado atual da equipe e pedem confirmação antes de aplicar.">i</button></div>
+            <label>Equipe<select id="correction-team"></select></label>
+            <div class="correction-grid">
+              <form id="position-correction"><label>Nova posição (1–60)<input id="correction-position" type="number" min="1" max="60" required></label><button type="submit">CORRIGIR POSIÇÃO</button></form>
+              <form id="hack-correction"><label>HACKs (0–3)<input id="correction-hacks" type="number" min="0" max="3" required></label><button type="submit">CORRIGIR HACKs</button></form>
+            </div>
+          </section>
+          <section class="professor-section test-mode-section">
+            <div class="section-heading"><div><span class="section-index">04</span><h2>MODO TESTE</h2></div><span class="state-chip">TEMPORÁRIO</span></div>
+            <p class="section-note">Posiciona uma gangue e ativa imediatamente o fluxo normal da casa escolhida. Não altera a correção manual.</p>
+            <form id="test-house-activation" class="test-mode-form">
+              <label>Gangue<select id="test-house-team" required></select></label>
+              <label>Casa (1–60)<input id="test-house-position" type="number" min="1" max="60" value="1" required></label>
+              <button type="submit">POSICIONAR E TESTAR CASA</button>
+            </form>
+          </section>
+          <section class="professor-section hacks-section">
+            <div class="section-heading"><div><span class="section-index">05</span><h2>HACKs</h2></div><button class="help-button" type="button" aria-label="Ajuda sobre regras dos HACKs" data-tooltip="Cada gangue pode ter até 3 HACKs e usar no máximo 1 por turno. Apagão bloqueia o uso durante sua duração.">i</button></div>
+            <p class="section-note">Máximo de 3 por gangue · 1 HACK utilizável por turno.</p>
+            <div class="admin-hack-list">
+              <article class="admin-hack-card"><div><span class="admin-hack-name">TURBO</span><button class="help-button" type="button" aria-label="Sobre HACK TURBO" data-tooltip="+2 casas. A nova posição não ativa a casa; se passar da 60, para na Casa 60.">i</button></div></article>
+              <article class="admin-hack-card"><div><span class="admin-hack-name">ESCUDO</span><button class="help-button" type="button" aria-label="Sobre HACK ESCUDO" data-tooltip="Cancela uma penalidade aplicável. Na penalidade, escolha usar ESCUDO ou aceitar. Não cancela vitória, desafio final ou condições essenciais.">i</button></div></article>
+              <article class="admin-hack-card"><div><span class="admin-hack-name">INTERCEPTAR</span><button class="help-button" type="button" aria-label="Sobre HACK INTERCEPTAR" data-tooltip="Escolha uma gangue adversária válida. Se o alvo errar ou der timeout, roube 1 HACK; se acertar, o roubo falha. Sem alvo com HACK, vale o fallback da casa/mecânica.">i</button></div></article>
+              <article class="admin-hack-card"><div><span class="admin-hack-name">OVERRIDE</span><button class="help-button" type="button" aria-label="Sobre HACK OVERRIDE" data-tooltip="Cancela o efeito da casa atual. Não cancela a Casa 60, vitória ou desafio final.">i</button></div></article>
+            </div>
+          </section>
+          <section class="professor-section events-section">
+            <div class="section-heading"><div><span class="section-index">06</span><h2>Eventos globais</h2></div><span id="event-state" class="state-chip">NENHUM ATIVO</span></div>
+            <div id="admin-event-list" class="admin-event-list"></div>
+          </section>
+          <section class="professor-section saved-game-section">
+            <div class="section-heading"><div><span class="section-index">07</span><h2>Partida e dados</h2></div><button class="help-button" type="button" aria-label="Ajuda para dados da partida" data-tooltip="Salvar e carregar usam o armazenamento local deste navegador.">i</button></div>
+            <div class="saved-game-controls">
+              <button id="save-game" type="button">SALVAR PARTIDA</button>
+              <button id="load-game" type="button">CARREGAR PARTIDA</button>
+              <button id="restart-game" class="warning-button" type="button">NOVA PARTIDA</button>
+              <button id="clear-game" class="warning-button" type="button">LIMPAR DADOS</button>
+            </div>
+            <p id="admin-feedback" class="admin-feedback" role="status"></p>
+          </section>
+        </div>
+        <footer class="professor-footer"><span>ESTADO SINCRONIZADO COM A PARTIDA ATUAL</span><button id="close-professor-footer" type="button">VOLTAR AO MAPA</button></footer>
+      </div>
+    </section>
+    <section id="action-popup" class="action-popup" aria-live="assertive" hidden>
+      <div class="action-card"><small id="action-type">AÇÃO DA CASA</small><h2 id="action-title">AÇÃO DA CASA</h2><p id="action-prompt"></p><span id="action-timer" class="action-timer" role="timer" aria-live="off" hidden></span><div id="action-code" class="code-window" hidden><div class="code-window-bar" aria-hidden="true"><span class="code-dot code-dot-red"></span><span class="code-dot code-dot-yellow"></span><span class="code-dot code-dot-green"></span></div><pre class="code-window-content"><code id="action-code-content"></code></pre></div><div id="action-feedback" class="action-feedback" role="status" aria-live="polite" hidden></div><div id="action-options"></div><button id="close-action">CONTINUAR</button></div>
+    </section>
+    <section id="victory-scene" class="victory-scene" aria-live="assertive" hidden>
+      <div class="victory-spotlight" aria-hidden="true"></div>
+      <div class="victory-content">
+        <small id="victory-rank"></small>
+        <h1 id="victory-title"></h1>
+        <p id="victory-message"></p>
+        <strong id="victory-team"></strong>
+        <div class="victory-actions">
+          <button id="victory-continue" type="button">CONTINUAR JOGO</button>
+          <button id="victory-finish" type="button">TERMINAR JOGO</button>
+        </div>
+      </div>
+    </section>
+    <section class="history-panel" aria-live="polite"><b>HISTÓRICO</b><div id="history-list"></div></section>
+    <div class="corner-tag">03:47<br><span>SETOR 07 / TURNO NOTURNO</span></div>
+  </main>
+  <script type="module" src="src/intro/intro-controller.js"></script>
+</body>
+</html>

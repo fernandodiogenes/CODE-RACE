@@ -1,0 +1,2297 @@
+[
+  {
+    "id": "py-print-001",
+    "category": "INTRODUCAO_PRINT",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido na tela?",
+    "code": "print(\"Ola, Neon City\")",
+    "options": [
+      "print(\"Ola, Neon City\")",
+      "\"Ola, Neon City\"",
+      "Erro",
+      "Ola, Neon City"
+    ],
+    "answer": 3,
+    "explanation": "O comando print() exibe o texto que está entre as aspas, sem mostrar as aspas nem o próprio comando. Por isso a tela mostra apenas: Ola, Neon City.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-print-002",
+    "category": "INTRODUCAO_PRINT",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido na tela?",
+    "code": "print(7 + 3)",
+    "options": [
+      "73",
+      "7 + 3",
+      "10",
+      "Erro"
+    ],
+    "answer": 2,
+    "explanation": "Sem aspas, o Python calcula a conta 7 + 3 antes de exibir. O resultado, 10, é o que aparece na tela.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-print-003",
+    "category": "INTRODUCAO_PRINT",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Para que serve o comando print()?",
+    "code": null,
+    "options": [
+      "Exibir informações na tela",
+      "Guardar um valor em uma variável",
+      "Comparar dois valores",
+      "Encerrar o programa"
+    ],
+    "answer": 0,
+    "explanation": "O print() mostra na tela textos, números e resultados, e assim o programa se comunica com quem o executa.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-print-004",
+    "category": "INTRODUCAO_PRINT",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Quantas linhas serão exibidas na tela?",
+    "code": "print(\"Neo\", \"Trinity\")\nprint(\"Morpheus\")",
+    "options": [
+      "1",
+      "3",
+      "2",
+      "4"
+    ],
+    "answer": 2,
+    "explanation": "Cada print() termina em uma nova linha, mas a vírgula apenas separa itens dentro do mesmo print(). Assim, Neo Trinity aparece em uma linha e Morpheus em outra: 2 linhas.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-print-005",
+    "category": "INTRODUCAO_PRINT",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido na tela?",
+    "code": "print(\"Energia:\", 80)",
+    "options": [
+      "Energia:80",
+      "Energia: 80",
+      "Energia:,80",
+      "Erro"
+    ],
+    "answer": 1,
+    "explanation": "Quando usamos vírgula dentro do print(), o Python exibe os itens separados por um espaço. O resultado é: Energia: 80.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-print-006",
+    "category": "INTRODUCAO_PRINT",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual código exibe exatamente ACESSO LIBERADO na tela?",
+    "code": null,
+    "options": [
+      "print(ACESSO LIBERADO)",
+      "Print(\"ACESSO LIBERADO\")",
+      "print(\"ACESSO LIBERADO\")",
+      "print(\"ACESSO LIBERADO\""
+    ],
+    "answer": 2,
+    "explanation": "O texto precisa estar entre aspas, o comando print() deve ser escrito em letras minúsculas e o parêntese precisa ser fechado. Só a primeira alternativa cumpre as três regras.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-print-007",
+    "category": "INTRODUCAO_PRINT",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido na tela?",
+    "code": "print(\"5 + 2\")",
+    "options": [
+      "7",
+      "5 + 2",
+      "52",
+      "Erro"
+    ],
+    "answer": 1,
+    "explanation": "Tudo o que está entre aspas é tratado como texto e é exibido exatamente como foi escrito. O Python não faz a conta quando ela está dentro de aspas.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-print-008",
+    "category": "INTRODUCAO_PRINT",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido na tela?",
+    "code": "print(\"Nivel\", 2 + 3)",
+    "options": [
+      "Nivel 2 + 3",
+      "Nivel 23",
+      "Nivel 5",
+      "Erro"
+    ],
+    "answer": 2,
+    "explanation": "O texto entre aspas é exibido como está. Já 2 + 3 não tem aspas, então é calculado e vira 5. A vírgula coloca um espaço entre os dois itens.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-print-009",
+    "category": "INTRODUCAO_PRINT",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual destas linhas causa um erro de sintaxe?",
+    "code": null,
+    "options": [
+      "print(\"Sistema online\")",
+      "print(\"Sistema online)",
+      "print('Sistema online')",
+      "print(100)"
+    ],
+    "answer": 1,
+    "explanation": "Na linha com erro, o texto foi aberto com aspas, mas as aspas nunca foram fechadas. O Python não consegue entender onde o texto termina.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-print-010",
+    "category": "INTRODUCAO_PRINT",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Em que ordem as mensagens aparecem na tela?",
+    "code": "print(\"Boot\")\nprint(\"Scan\")\nprint(\"Ready\")",
+    "options": [
+      "Ready, Scan, Boot",
+      "Boot, Scan, Ready",
+      "Scan, Boot, Ready",
+      "Boot, Ready, Scan"
+    ],
+    "answer": 1,
+    "explanation": "O Python executa as linhas de cima para baixo, na ordem em que foram escritas. Por isso a saída segue a mesma ordem do código.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-string-001",
+    "category": "STRINGS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "nome = \"Neo\"\nsobrenome = \"Anderson\"\nprint(nome + sobrenome)",
+    "options": [
+      "Neo Anderson",
+      "Neo+Anderson",
+      "Erro",
+      "NeoAnderson"
+    ],
+    "answer": 3,
+    "explanation": "O operador + junta dois textos exatamente como estão. Como nenhum dos textos tem espaço, o resultado sai grudado: NeoAnderson.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-string-002",
+    "category": "STRINGS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual dos valores abaixo é uma string (texto)?",
+    "code": null,
+    "options": [
+      "42",
+      "3.14",
+      "True",
+      "\"42\""
+    ],
+    "answer": 3,
+    "explanation": "Tudo o que está entre aspas é uma string, mesmo quando parece um número. O valor 42 sem aspas é um número inteiro.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-string-003",
+    "category": "STRINGS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "a = 'Neo'\nb = \"Neo\"\nprint(a == b)",
+    "options": [
+      "False",
+      "Neo",
+      "Erro",
+      "True"
+    ],
+    "answer": 3,
+    "explanation": "Aspas simples e aspas duplas criam o mesmo tipo de texto. As duas variáveis guardam o texto Neo, então a comparação a == b resulta em True.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-string-004",
+    "category": "STRINGS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "print(\"Hacker's Bay\")",
+    "options": [
+      "Hacker's Bay",
+      "Hackers Bay",
+      "\"Hacker's Bay\"",
+      "Erro"
+    ],
+    "answer": 0,
+    "explanation": "Como o texto foi aberto com aspas duplas, o apóstrofo dentro dele é apenas um caractere comum. O print() exibe o texto sem as aspas externas.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-string-005",
+    "category": "STRINGS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual código exibe Neo City usando duas variáveis?",
+    "code": null,
+    "options": [
+      "a = \"Neo\"\nb = \"City\"\nprint(a + b)",
+      "a = \"Neo\"\nb = \"City\"\nprint(\"a\" + \" \" + \"b\")",
+      "a = \"Neo\"\nb = \"City\"\nprint(a \" \" b)",
+      "a = \"Neo\"\nb = \"City\"\nprint(a + \" \" + b)"
+    ],
+    "answer": 3,
+    "explanation": "É preciso juntar a, um espaço entre aspas e b. Sem o espaço sai NeoCity; com aspas em volta de a e b o Python exibe as letras a e b em vez dos valores; e sem o + o código é inválido.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-string-006",
+    "category": "STRINGS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "print(\"1\" + \"1\")",
+    "options": [
+      "2",
+      "11",
+      "1 + 1",
+      "Erro"
+    ],
+    "answer": 1,
+    "explanation": "Os valores estão entre aspas, então são textos. O operador + junta os textos, e não soma números. O resultado é 11.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-string-007",
+    "category": "STRINGS",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "x = \"3\"\ny = \"4\"\nprint(x + y, 3 + 4)",
+    "options": [
+      "7 7",
+      "34 34",
+      "7 34",
+      "34 7"
+    ],
+    "answer": 3,
+    "explanation": "As variáveis x e y guardam textos, então x + y junta os textos e resulta em 34. Já 3 + 4 são números e resultam em 7. A vírgula separa os dois itens com um espaço.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-string-008",
+    "category": "STRINGS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "senha = \"Neo\"\nprint(senha == \"neo\")",
+    "options": [
+      "True",
+      "False",
+      "Neo",
+      "Erro"
+    ],
+    "answer": 1,
+    "explanation": "O Python diferencia letras maiúsculas de minúsculas. Os textos Neo e neo são diferentes, então a comparação resulta em False.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-string-009",
+    "category": "STRINGS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que acontece ao executar este código?",
+    "code": "print(\"Nivel \" + 5)",
+    "options": [
+      "Nivel 5",
+      "Nivel 55",
+      "Nivel",
+      "Erro: não dá para juntar texto com número usando +"
+    ],
+    "answer": 3,
+    "explanation": "O operador + junta texto com texto ou soma número com número. Misturar o texto \"Nivel \" com o número 5 causa erro. Para exibir os dois, poderíamos usar a vírgula: print(\"Nivel\", 5).",
+    "timeLimit": null
+  },
+  {
+    "id": "py-string-010",
+    "category": "STRINGS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "msg = \"Sistema\"\nmsg = msg + \" online\"\nprint(msg)",
+    "options": [
+      "Sistema",
+      "online",
+      "Sistema online",
+      "msg online"
+    ],
+    "answer": 2,
+    "explanation": "A variável msg começa com Sistema. Na segunda linha, ela recebe o valor antigo de msg junto com o texto \" online\". Assim, msg passa a guardar Sistema online.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-variable-001",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual valor será exibido?",
+    "code": "pontos = 250\nprint(pontos)",
+    "options": [
+      "250",
+      "pontos",
+      "pontos = 250",
+      "Erro"
+    ],
+    "answer": 0,
+    "explanation": "A variável pontos guarda o número 250. Ao usar print(pontos), o Python exibe o conteúdo guardado, e não o nome da variável.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-variable-002",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual é o tipo do valor guardado em idade?",
+    "code": "idade = 17",
+    "options": [
+      "float",
+      "str",
+      "bool",
+      "int"
+    ],
+    "answer": 3,
+    "explanation": "17 é um número inteiro, sem casas decimais e sem aspas. Esse tipo se chama int.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-variable-003",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual é o tipo do valor guardado em altura?",
+    "code": "altura = 1.85",
+    "options": [
+      "int",
+      "float",
+      "str",
+      "bool"
+    ],
+    "answer": 1,
+    "explanation": "Números com ponto decimal, como 1.85, são do tipo float.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-variable-004",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual é o tipo do valor guardado em ativo?",
+    "code": "ativo = True",
+    "options": [
+      "str",
+      "bool",
+      "float",
+      "int"
+    ],
+    "answer": 1,
+    "explanation": "Os valores True e False são chamados de booleanos e pertencem ao tipo bool. Eles representam verdadeiro ou falso.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-variable-005",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual é o tipo do valor guardado em codigo?",
+    "code": "codigo = \"007\"",
+    "options": [
+      "int",
+      "float",
+      "str",
+      "bool"
+    ],
+    "answer": 2,
+    "explanation": "O valor está entre aspas, então é um texto (str), mesmo que só tenha algarismos. Por ser texto, ele não é usado em contas como um número.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-variable-006",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual linha guarda o valor 10 em uma variável chamada energia?",
+    "code": null,
+    "options": [
+      "energia = 10",
+      "10 = energia",
+      "energia -> 10",
+      "energia 10"
+    ],
+    "answer": 0,
+    "explanation": "Em Python, a variável fica à esquerda do sinal = e o valor fica à direita: energia = 10.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-variable-007",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "energia = 50\nenergia = 80\nprint(energia)",
+    "options": [
+      "80",
+      "50",
+      "130",
+      "energia"
+    ],
+    "answer": 0,
+    "explanation": "Uma variável guarda um valor de cada vez. Quando energia recebe 80, o valor antigo (50) é substituído, e não somado.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-variable-008",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "a = 5\nb = a\na = 9\nprint(b)",
+    "options": [
+      "9",
+      "5",
+      "14",
+      "Erro"
+    ],
+    "answer": 1,
+    "explanation": "Na linha b = a, a variável b recebe o valor que a tinha naquele momento: 5. Depois, mudar a para 9 não altera b, que continua guardando 5.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-variable-009",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "x = 5\ny = x + 2\nprint(x, y)",
+    "options": [
+      "7 7",
+      "5 7",
+      "5 5",
+      "5 2"
+    ],
+    "answer": 1,
+    "explanation": "x continua valendo 5. A variável y recebe x + 2, ou seja, 7. O print() mostra os dois valores separados por espaço: 5 7.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-variable-010",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual alternativa contém um valor booleano?",
+    "code": null,
+    "options": [
+      "True",
+      "'True'",
+      "1",
+      "'Verdadeiro'"
+    ],
+    "answer": 0,
+    "explanation": "True sem aspas é um valor booleano (bool). Com aspas, como 'True', vira um texto. O número 1 é um int.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-variable-011",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual é o tipo do valor guardado em resultado?",
+    "code": "resultado = 4 > 2",
+    "options": [
+      "bool",
+      "int",
+      "str",
+      "float"
+    ],
+    "answer": 0,
+    "explanation": "Toda comparação produz um valor True ou False. Como 4 > 2 é verdadeiro, resultado guarda True, que é do tipo bool.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-variable-012",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual é um nome válido para uma variável?",
+    "code": null,
+    "options": [
+      "2energia",
+      "energia_total",
+      "energia total",
+      "energia-total"
+    ],
+    "answer": 1,
+    "explanation": "Nomes de variáveis não podem começar com número, ter espaços ou usar hífen. O sublinhado (_) é permitido e ajuda a separar palavras.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-variable-013",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "a = 3\nb = 5\na = b\nb = a\nprint(a, b)",
+    "options": [
+      "5 3",
+      "3 5",
+      "3 3",
+      "5 5"
+    ],
+    "answer": 3,
+    "explanation": "Na linha a = b, a passa a valer 5 e o valor 3 se perde. Em seguida, b = a copia o novo valor de a (5) para b. Os dois terminam valendo 5.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-variable-014",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual é o tipo do valor guardado em total?",
+    "code": "pontos = 10\nbonus = 2.5\ntotal = pontos + bonus",
+    "options": [
+      "int",
+      "float",
+      "str",
+      "bool"
+    ],
+    "answer": 1,
+    "explanation": "Somar um int (10) com um float (2.5) resulta em 12.5, que é um float.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-variable-015",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que uma variável faz?",
+    "code": null,
+    "options": [
+      "Guarda um valor com um nome, para usar depois no programa",
+      "Mostra um texto na tela",
+      "Compara dois valores automaticamente",
+      "Cria uma nova condição"
+    ],
+    "answer": 0,
+    "explanation": "Uma variável é como uma caixa com nome: ela guarda um valor (número, texto, verdadeiro ou falso) que pode ser usado várias vezes no programa.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-math-001",
+    "category": "OPERADORES_MATEMATICOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual será o valor exibido?",
+    "code": "x = 5\ny = 8\nprint(x + y)",
+    "options": [
+      "40",
+      "3",
+      "x + y",
+      "13"
+    ],
+    "answer": 3,
+    "explanation": "O Python usa os valores guardados: 5 + 8 = 13.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-math-002",
+    "category": "OPERADORES_MATEMATICOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual será o valor exibido?",
+    "code": "energia = 100\ngasto = 35\nenergia = energia - gasto\nprint(energia)",
+    "options": [
+      "135",
+      "65",
+      "35",
+      "100"
+    ],
+    "answer": 1,
+    "explanation": "A nova energia é a energia antiga menos o gasto: 100 - 35 = 65. O valor 65 é guardado na própria variável energia.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-math-003",
+    "category": "OPERADORES_MATEMATICOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual será o valor exibido?",
+    "code": "print(6 * 7)",
+    "options": [
+      "42",
+      "13",
+      "67",
+      "49"
+    ],
+    "answer": 0,
+    "explanation": "O símbolo * representa a multiplicação. 6 * 7 = 42.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-math-004",
+    "category": "OPERADORES_MATEMATICOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "print(20 / 4)",
+    "options": [
+      "5",
+      "80",
+      "16",
+      "5.0"
+    ],
+    "answer": 3,
+    "explanation": "A divisão com / sempre resulta em um número decimal (float) em Python. Por isso o resultado é 5.0, e não 5.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-math-005",
+    "category": "OPERADORES_MATEMATICOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual será o valor exibido?",
+    "code": "print(2 + 3 * 4)",
+    "options": [
+      "20",
+      "14",
+      "24",
+      "9"
+    ],
+    "answer": 1,
+    "explanation": "A multiplicação é feita antes da soma: primeiro 3 * 4 = 12, depois 2 + 12 = 14.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-math-006",
+    "category": "OPERADORES_MATEMATICOS",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "Qual será o valor exibido?",
+    "code": "dano = 15\nescudo = 5\nprint(dano * 2 + escudo * 3)",
+    "options": [
+      "105",
+      "35",
+      "60",
+      "45"
+    ],
+    "answer": 3,
+    "explanation": "As multiplicações são feitas primeiro: 15 * 2 = 30 e 5 * 3 = 15. Depois soma-se: 30 + 15 = 45.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-math-007",
+    "category": "OPERADORES_MATEMATICOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual será o valor exibido?",
+    "code": "tiros = 3\ndano = 12\ntotal = tiros * dano\nprint(total)",
+    "options": [
+      "36",
+      "15",
+      "4",
+      "9"
+    ],
+    "answer": 0,
+    "explanation": "A variável total recebe o resultado de 3 * 12, que é 36.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-math-008",
+    "category": "OPERADORES_MATEMATICOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual será o valor exibido?",
+    "code": "media = (8 + 6 + 10) / 3\nprint(media)",
+    "options": [
+      "8",
+      "24.0",
+      "8.0",
+      "Erro"
+    ],
+    "answer": 2,
+    "explanation": "Os parênteses fazem a soma acontecer primeiro: 8 + 6 + 10 = 24. Depois 24 / 3 = 8.0. A divisão com / resulta em float.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-math-009",
+    "category": "OPERADORES_MATEMATICOS",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "Qual será o valor exibido?",
+    "code": "energia = 50\nenergia = energia + 30\nenergia = energia / 2\nprint(energia)",
+    "options": [
+      "40",
+      "65.0",
+      "40.0",
+      "80.0"
+    ],
+    "answer": 2,
+    "explanation": "Passo a passo: energia = 50, depois 80 e depois 80 / 2 = 40.0. Como a divisão com / resulta em float, o resultado é 40.0.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-math-010",
+    "category": "OPERADORES_MATEMATICOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual expressão resulta em 12?",
+    "code": null,
+    "options": [
+      "3 + 4 * 2",
+      "20 / 2",
+      "3 * 4",
+      "18 - 5"
+    ],
+    "answer": 2,
+    "explanation": "3 * 4 = 12. As outras dão: 3 + 4 * 2 = 11, 20 / 2 = 10.0 e 18 - 5 = 13.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-math-011",
+    "category": "OPERADORES_MATEMATICOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual símbolo representa a multiplicação em Python?",
+    "code": null,
+    "options": [
+      "x",
+      "*",
+      "+",
+      "/"
+    ],
+    "answer": 1,
+    "explanation": "Em Python, a multiplicação é feita com o asterisco (*). A letra x não funciona como operador.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-math-012",
+    "category": "OPERADORES_MATEMATICOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "a = 9\nb = 2\nprint(a / b)",
+    "options": [
+      "4.5",
+      "4",
+      "5",
+      "18"
+    ],
+    "answer": 0,
+    "explanation": "A divisão 9 / 2 resulta em 4.5. O Python mantém a parte decimal e não arredonda o resultado.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-compare-001",
+    "category": "COMPARACAO",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "print(5 > 3)",
+    "options": [
+      "True",
+      "False",
+      "5",
+      "Erro"
+    ],
+    "answer": 0,
+    "explanation": "A comparação 5 > 3 é verdadeira, porque 5 é maior que 3. O resultado de uma comparação é sempre True ou False.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-compare-002",
+    "category": "COMPARACAO",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "print(7 != 7)",
+    "options": [
+      "True",
+      "7",
+      "Erro",
+      "False"
+    ],
+    "answer": 3,
+    "explanation": "O operador != significa \"diferente de\". Como 7 é igual a 7, dizer que eles são diferentes é falso.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-compare-003",
+    "category": "COMPARACAO",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual expressão resulta em True?",
+    "code": null,
+    "options": [
+      "10 >= 10",
+      "10 > 10",
+      "10 < 10",
+      "10 != 10"
+    ],
+    "answer": 0,
+    "explanation": "O operador >= significa \"maior ou igual\". Como 10 é igual a 10, a comparação é verdadeira. As outras três são falsas.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-compare-004",
+    "category": "COMPARACAO",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual operador verifica se dois valores são iguais?",
+    "code": null,
+    "options": [
+      "==",
+      "=",
+      "!=",
+      ">="
+    ],
+    "answer": 0,
+    "explanation": "O operador == compara dois valores. O sinal = é usado para guardar um valor em uma variável, e != verifica se são diferentes.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-compare-005",
+    "category": "COMPARACAO",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "idade = 15\nprint(idade < 18)",
+    "options": [
+      "False",
+      "15",
+      "Erro",
+      "True"
+    ],
+    "answer": 3,
+    "explanation": "A variável idade vale 15. A comparação 15 < 18 é verdadeira, então o resultado é True.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-compare-006",
+    "category": "COMPARACAO",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "x = 8\ny = 3\nprint(x - y == 5)",
+    "options": [
+      "False",
+      "5",
+      "True",
+      "8"
+    ],
+    "answer": 2,
+    "explanation": "A conta x - y é feita antes da comparação: 8 - 3 = 5. Depois, 5 == 5 resulta em True.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-compare-007",
+    "category": "COMPARACAO",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "print(\"10\" == 10)",
+    "options": [
+      "True",
+      "10",
+      "Erro",
+      "False"
+    ],
+    "answer": 3,
+    "explanation": "\"10\" é um texto e 10 é um número. Valores de tipos diferentes não são considerados iguais, então o resultado é False.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-compare-008",
+    "category": "COMPARACAO",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "nome = \"Neo\"\nprint(nome != \"Trinity\")",
+    "options": [
+      "False",
+      "True",
+      "Neo",
+      "Trinity"
+    ],
+    "answer": 1,
+    "explanation": "O texto Neo é diferente do texto Trinity, então a comparação nome != \"Trinity\" é verdadeira.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-compare-009",
+    "category": "COMPARACAO",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "a = 4\nb = 6\nprint(a * 2 >= b + 3)",
+    "options": [
+      "False",
+      "True",
+      "8",
+      "9"
+    ],
+    "answer": 0,
+    "explanation": "Primeiro as contas: a * 2 = 8 e b + 3 = 9. Depois compara-se 8 >= 9, que é falso.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-compare-010",
+    "category": "COMPARACAO",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual é a diferença entre energia = 50 e energia == 50?",
+    "code": null,
+    "options": [
+      "= compara valores; == guarda o valor 50 na variável",
+      "Os dois fazem exatamente a mesma coisa",
+      "= guarda o valor 50 na variável; == compara se energia é igual a 50",
+      "Os dois guardam valores, mas == guarda números decimais"
+    ],
+    "answer": 2,
+    "explanation": "Um sinal de igual (=) é atribuição: guarda um valor na variável. Dois sinais de igual (==) formam uma pergunta: os dois lados têm o mesmo valor? A resposta é True ou False.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-compare-011",
+    "category": "COMPARACAO",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "Qual expressão resulta em True?",
+    "code": "energia = 45\nminimo = 50",
+    "options": [
+      "energia >= minimo",
+      "energia - 5 >= minimo",
+      "energia + 5 >= minimo",
+      "energia == minimo"
+    ],
+    "answer": 2,
+    "explanation": "energia + 5 vale 50, e 50 >= 50 é verdadeiro. Nas outras alternativas, 45 >= 50, 40 >= 50 e 45 == 50 são falsos.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-compare-012",
+    "category": "COMPARACAO",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Um site exige que a pessoa tenha no mínimo 18 anos. Qual condição representa isso?",
+    "code": null,
+    "options": [
+      "idade > 18",
+      "idade <= 18",
+      "idade == 18",
+      "idade >= 18"
+    ],
+    "answer": 3,
+    "explanation": "\"No mínimo 18\" significa 18 ou mais. Por isso usamos >=, que inclui o próprio 18. Com > a pessoa de exatamente 18 anos ficaria de fora.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-boolean-001",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "print(True and False)",
+    "options": [
+      "True",
+      "False",
+      "True and False",
+      "Erro"
+    ],
+    "answer": 1,
+    "explanation": "O operador and só resulta em True quando os dois lados são True. Como um deles é False, o resultado é False.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-boolean-002",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "print(not True)",
+    "options": [
+      "True",
+      "not True",
+      "Erro",
+      "False"
+    ],
+    "answer": 3,
+    "explanation": "O operador not inverte o valor lógico: not True vira False.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-boolean-003",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "print(False or True)",
+    "options": [
+      "False",
+      "False or True",
+      "True",
+      "Erro"
+    ],
+    "answer": 2,
+    "explanation": "O operador or resulta em True quando pelo menos um dos lados é True. Aqui, o lado direito é True.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-boolean-004",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "idade = 16\nautorizado = True\nprint(idade >= 16 and autorizado)",
+    "options": [
+      "True",
+      "False",
+      "16",
+      "Erro"
+    ],
+    "answer": 0,
+    "explanation": "A primeira parte, 16 >= 16, é True. A segunda parte, autorizado, também é True. Com os dois lados verdadeiros, o and resulta em True.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-boolean-005",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "energia = 40\nescudo = False\nprint(energia > 50 or escudo)",
+    "options": [
+      "False",
+      "True",
+      "40",
+      "Erro"
+    ],
+    "answer": 0,
+    "explanation": "40 > 50 é False e escudo também é False. O or só resulta em True quando pelo menos um dos lados é True, então o resultado é False.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-boolean-006",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "x = 5\nprint(not x > 3)",
+    "options": [
+      "False",
+      "True",
+      "5",
+      "Erro"
+    ],
+    "answer": 0,
+    "explanation": "A comparação x > 3 é feita primeiro e resulta em True. Depois o not inverte esse valor para False.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-boolean-007",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual expressão resulta em True?",
+    "code": "a = 10\nb = 3",
+    "options": [
+      "a < b and b < 5",
+      "a > b and b < 5",
+      "a < b or b > 5",
+      "not a > b"
+    ],
+    "answer": 1,
+    "explanation": "a > b é True e b < 5 também é True, então o and resulta em True. Nas outras alternativas, o resultado final é False.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-boolean-008",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "alerta = True\nescudo = False\nsinal = False\nprint(alerta or escudo and sinal, (alerta or escudo) and sinal)",
+    "options": [
+      "True False",
+      "True True",
+      "False False",
+      "False True"
+    ],
+    "answer": 0,
+    "explanation": "O and é resolvido antes do or. No primeiro item: escudo and sinal = False, e depois True or False = True. No segundo, os parênteses obrigam a resolver o or primeiro: True and False = False.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-boolean-009",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Quando A or B resulta em False?",
+    "code": null,
+    "options": [
+      "Quando pelo menos um deles é False",
+      "Somente quando A e B são False",
+      "Quando A e B são True",
+      "Nunca, o or sempre resulta em True"
+    ],
+    "answer": 1,
+    "explanation": "O or só resulta em False quando os dois lados são False. Basta um lado True para o resultado ser True.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-boolean-010",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Quando A and B resulta em True?",
+    "code": null,
+    "options": [
+      "Quando pelo menos um deles é True",
+      "Somente quando A e B são True ao mesmo tempo",
+      "Quando os dois são False",
+      "Sempre"
+    ],
+    "answer": 1,
+    "explanation": "O and exige que as duas condições sejam verdadeiras. Se qualquer uma delas é False, o resultado é False.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-boolean-011",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "bloqueado = False\nprint(not bloqueado)",
+    "options": [
+      "False",
+      "True",
+      "bloqueado",
+      "Erro"
+    ],
+    "answer": 1,
+    "explanation": "A variável bloqueado vale False. O not inverte esse valor, então not bloqueado resulta em True.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-boolean-012",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "x = 7\nprint(x > 5 and x < 10 and x != 7)",
+    "options": [
+      "True",
+      "7",
+      "Erro",
+      "False"
+    ],
+    "answer": 3,
+    "explanation": "As duas primeiras condições são True (7 > 5 e 7 < 10), mas x != 7 é False. Com o and, basta uma condição falsa para o resultado ser False.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-boolean-013",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "energia = 20\nescudo = True\ndrone = False\nprint(not (energia > 50 or escudo) or drone)",
+    "options": [
+      "True",
+      "20",
+      "False",
+      "Erro"
+    ],
+    "answer": 2,
+    "explanation": "Dentro dos parênteses: energia > 50 é False e escudo é True, então False or True = True. O not inverte para False. Por fim, False or drone (False) resulta em False.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-boolean-014",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual expressão é True para todo x de 1 a 10, incluindo o 1 e o 10, e False fora desse intervalo?",
+    "code": null,
+    "options": [
+      "x >= 1 or x <= 10",
+      "x > 1 and x < 10",
+      "x >= 1 and x <= 10",
+      "x >= 10 and x <= 1"
+    ],
+    "answer": 2,
+    "explanation": "É preciso que x seja maior ou igual a 1 e também menor ou igual a 10, então usamos and com >= e <=. O or seria verdadeiro para qualquer número, e os operadores > e < deixariam 1 e 10 de fora.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-boolean-015",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "a = True\nb = True\nprint(a and b, a or b, not a)",
+    "options": [
+      "True True False",
+      "True False False",
+      "False True False",
+      "True True True"
+    ],
+    "answer": 0,
+    "explanation": "a and b é True (os dois são True), a or b é True e not a é False. Os três resultados aparecem separados por espaço.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-condition-001",
+    "category": "CONDICIONAIS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "energia = 60\nif energia > 50:\n    print(\"OK\")",
+    "options": [
+      "Nada será exibido",
+      "energia",
+      "Erro",
+      "OK"
+    ],
+    "answer": 3,
+    "explanation": "A condição 60 > 50 é verdadeira, então o bloco do if é executado e o print() exibe OK.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-condition-002",
+    "category": "CONDICIONAIS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "idade = 14\nif idade >= 18:\n    print(\"Maior\")\nelse:\n    print(\"Menor\")",
+    "options": [
+      "Maior",
+      "Maior e Menor",
+      "Menor",
+      "Nada será exibido"
+    ],
+    "answer": 2,
+    "explanation": "A condição 14 >= 18 é falsa, então o if é ignorado e o Python executa o else, que exibe Menor.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-condition-003",
+    "category": "CONDICIONAIS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "energia = 10\nif energia >= 50:\n    print(\"Alto\")\nelif energia >= 20:\n    print(\"Medio\")",
+    "options": [
+      "Alto",
+      "Medio",
+      "Erro",
+      "Nada será exibido"
+    ],
+    "answer": 3,
+    "explanation": "Nenhuma condição é verdadeira: 10 >= 50 é falso e 10 >= 20 também. Como não há else, nenhum bloco é executado e nada é exibido.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-condition-004",
+    "category": "CONDICIONAIS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "pontos = 75\nif pontos >= 90:\n    print(\"S\")\nelif pontos >= 70:\n    print(\"A\")\nelse:\n    print(\"B\")",
+    "options": [
+      "S",
+      "B",
+      "A",
+      "S e A"
+    ],
+    "answer": 2,
+    "explanation": "75 >= 90 é falso, então o Python testa o elif: 75 >= 70 é verdadeiro. Ele exibe A e ignora o resto.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-condition-005",
+    "category": "CONDICIONAIS",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "pontos = 95\nif pontos >= 70:\n    print(\"B\")\nelif pontos >= 90:\n    print(\"A\")\nelse:\n    print(\"C\")",
+    "options": [
+      "A",
+      "C",
+      "B",
+      "A e B"
+    ],
+    "answer": 2,
+    "explanation": "O Python testa as condições em ordem e executa apenas o primeiro bloco verdadeiro. Como 95 >= 70 já é verdadeiro, ele exibe B e nunca chega ao elif.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-condition-006",
+    "category": "CONDICIONAIS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "senha = \"1234\"\nif senha == \"0000\":\n    print(\"Negado\")\nelif senha == \"1234\":\n    print(\"Admin\")\nelse:\n    print(\"Convidado\")",
+    "options": [
+      "Negado",
+      "Convidado",
+      "Admin e Convidado",
+      "Admin"
+    ],
+    "answer": 3,
+    "explanation": "O primeiro teste compara \"1234\" com \"0000\" e é falso. O elif compara \"1234\" com \"1234\" e é verdadeiro, então exibe Admin.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-condition-007",
+    "category": "CONDICIONAIS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "cargo = \"hacker\"\nnivel = 4\nif cargo == \"hacker\" and nivel >= 5:\n    print(\"Acesso total\")\nelse:\n    print(\"Acesso parcial\")",
+    "options": [
+      "Acesso total",
+      "Acesso parcial",
+      "Acesso total e Acesso parcial",
+      "Nada será exibido"
+    ],
+    "answer": 1,
+    "explanation": "A primeira parte (cargo == \"hacker\") é verdadeira, mas 4 >= 5 é falso. O and exige as duas partes verdadeiras, então o Python executa o else.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-condition-008",
+    "category": "CONDICIONAIS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "idade = 12\nacompanhado = True\nif idade >= 16 or acompanhado:\n    print(\"Entra\")\nelse:\n    print(\"Fica\")",
+    "options": [
+      "Fica",
+      "Entra e Fica",
+      "Entra",
+      "Erro"
+    ],
+    "answer": 2,
+    "explanation": "12 >= 16 é falso, mas acompanhado é True. O or só precisa de uma condição verdadeira, então o if é executado.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-condition-009",
+    "category": "CONDICIONAIS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "porta_trancada = False\nif not porta_trancada:\n    print(\"Abrir\")\nelse:\n    print(\"Bloqueada\")",
+    "options": [
+      "Bloqueada",
+      "Abrir e Bloqueada",
+      "Nada será exibido",
+      "Abrir"
+    ],
+    "answer": 3,
+    "explanation": "porta_trancada vale False. O not inverte esse valor para True, então a condição do if é verdadeira e o programa exibe Abrir.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-condition-010",
+    "category": "CONDICIONAIS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Quando o bloco else é executado em uma estrutura if / elif / else?",
+    "code": null,
+    "options": [
+      "Sempre, depois do if",
+      "Quando a condição do if é verdadeira",
+      "Quando nenhuma das condições anteriores é verdadeira",
+      "Somente quando o programa termina"
+    ],
+    "answer": 2,
+    "explanation": "O else é a saída \"para todos os outros casos\". Ele só roda se o if e todos os elif anteriores forem falsos.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-condition-011",
+    "category": "CONDICIONAIS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "energia = 80\nif energia < 30:\n    print(\"Alerta\")\nprint(\"Fim\")",
+    "options": [
+      "Alerta e Fim",
+      "Somente Alerta",
+      "Nada será exibido",
+      "Somente Fim"
+    ],
+    "answer": 3,
+    "explanation": "O print(\"Alerta\") tem indentação, então pertence ao if e só roda se energia < 30, o que é falso. Já print(\"Fim\") não tem indentação e sempre é executado.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-condition-012",
+    "category": "CONDICIONAIS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "pontos = 50\nif pontos > 100:\n    print(\"Lenda\")\nelif pontos > 50:\n    print(\"Veterano\")\nelif pontos > 20:\n    print(\"Novato\")\nelse:\n    print(\"Recruta\")",
+    "options": [
+      "Veterano",
+      "Recruta",
+      "Lenda",
+      "Novato"
+    ],
+    "answer": 3,
+    "explanation": "50 > 100 é falso. 50 > 50 também é falso, pois 50 não é maior que 50. Então chega ao terceiro teste: 50 > 20 é verdadeiro e exibe Novato.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-condition-013",
+    "category": "CONDICIONAIS",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "energia = 65\nalerta = False\nnivel = 3\nif energia < 30 or alerta:\n    print(\"PERIGO\")\nelif energia >= 70 and nivel >= 3:\n    print(\"ESTAVEL\")\nelse:\n    print(\"ATENCAO\")",
+    "options": [
+      "PERIGO",
+      "ESTAVEL",
+      "Nada será exibido",
+      "ATENCAO"
+    ],
+    "answer": 3,
+    "explanation": "Primeiro teste: 65 < 30 é falso e alerta é False, então é falso. Segundo teste: 65 >= 70 é falso, então o and é falso. Nenhum teste passou, e o else exibe ATENCAO.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-condition-014",
+    "category": "CONDICIONAIS",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "energia = 50\nenergia = energia - 30\nif energia >= 30:\n    print(\"Continua\")\nelif energia >= 10:\n    print(\"Fraco\")\nelse:\n    print(\"Fim\")",
+    "options": [
+      "Continua",
+      "Fraco",
+      "Fim",
+      "Continua e Fraco"
+    ],
+    "answer": 1,
+    "explanation": "Antes do if, energia passa a valer 50 - 30 = 20. Então 20 >= 30 é falso e 20 >= 10 é verdadeiro, e o programa exibe Fraco.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-condition-015",
+    "category": "CONDICIONAIS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "A variável nota vale 7. Qual condição de if faz o programa exibir Aprovado?",
+    "code": null,
+    "options": [
+      "nota > 7",
+      "nota == 6",
+      "nota >= 6",
+      "nota < 5"
+    ],
+    "answer": 2,
+    "explanation": "Com nota igual a 7, apenas 7 >= 6 é verdadeiro. As outras condições (7 > 7, 7 == 6 e 7 < 5) são falsas.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-condition-016",
+    "category": "CONDICIONAIS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual código exibe Ganhou quando pontos é maior que 10 e, no caso contrário, exibe Tente de novo?",
+    "code": null,
+    "options": [
+      "if pontos > 10\n    print(\"Ganhou\")\nelse:\n    print(\"Tente de novo\")",
+      "if pontos > 10:\nprint(\"Ganhou\")\nelse:\nprint(\"Tente de novo\")",
+      "if pontos > 10:\n    print(\"Ganhou\")\nelse:\n    print(\"Tente de novo\")",
+      "if pontos = 10:\n    print(\"Ganhou\")\nelse:\n    print(\"Tente de novo\")"
+    ],
+    "answer": 2,
+    "explanation": "O if precisa terminar com dois pontos (:), o print() precisa de indentação dentro do bloco e a comparação usa > (o sinal = serve para guardar valores). Só a primeira alternativa cumpre tudo isso.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-condition-017",
+    "category": "CONDICIONAIS",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "x = 10\nif x > 5:\n    print(\"A\")\nif x > 8:\n    print(\"B\")\nelse:\n    print(\"C\")",
+    "options": [
+      "Somente A",
+      "A e C",
+      "A e B",
+      "Somente B"
+    ],
+    "answer": 2,
+    "explanation": "São dois if separados, e cada um é avaliado por conta própria. O primeiro (10 > 5) exibe A. O segundo (10 > 8) é verdadeiro e exibe B; o else pertence a ele e não roda.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-condition-018",
+    "category": "CONDICIONAIS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "ligado = True\nif ligado:\n    print(\"Sistema ligado\")\nelse:\n    print(\"Sistema desligado\")",
+    "options": [
+      "Sistema desligado",
+      "Sistema ligado",
+      "Nada será exibido",
+      "Erro"
+    ],
+    "answer": 1,
+    "explanation": "Uma variável booleana já é uma condição por si só. Como ligado vale True, o bloco do if é executado, sem precisar escrever == True.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-condition-019",
+    "category": "CONDICIONAIS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "temperatura = 35\nif temperatura >= 30 and temperatura < 40:\n    print(\"Quente\")\nelif temperatura >= 40:\n    print(\"Perigo\")\nelse:\n    print(\"Normal\")",
+    "options": [
+      "Perigo",
+      "Quente",
+      "Normal",
+      "Nada será exibido"
+    ],
+    "answer": 1,
+    "explanation": "35 >= 30 é verdadeiro e 35 < 40 também, então o and é verdadeiro. O primeiro bloco é executado e exibe Quente.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-condition-020",
+    "category": "CONDICIONAIS",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "nivel = 5\nenergia = 20\nif nivel >= 5 and energia >= 50:\n    print(\"ALFA\")\nelif nivel >= 5:\n    print(\"BETA\")\nelif energia >= 50:\n    print(\"GAMA\")\nelse:\n    print(\"DELTA\")",
+    "options": [
+      "BETA",
+      "ALFA",
+      "GAMA",
+      "DELTA"
+    ],
+    "answer": 0,
+    "explanation": "O primeiro teste falha porque energia (20) não é maior ou igual a 50. O segundo teste, nivel >= 5, é verdadeiro, então exibe BETA e ignora os demais.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-output-001",
+    "category": "PREVISAO_SAIDA",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "cidade = \"Neon\"\nnumero = 60\nprint(cidade, numero)",
+    "options": [
+      "Neon60",
+      "cidade numero",
+      "Neon, 60",
+      "Neon 60"
+    ],
+    "answer": 3,
+    "explanation": "O print() mostra os valores guardados nas variáveis, separados por um espaço: Neon 60.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-output-002",
+    "category": "PREVISAO_SAIDA",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "score = 10\nbonus = 5\nprint(\"Total:\", score + bonus)",
+    "options": [
+      "Total: 10 + 5",
+      "Total: 105",
+      "Total:15",
+      "Total: 15"
+    ],
+    "answer": 3,
+    "explanation": "O texto \"Total:\" é exibido como está. Já score + bonus é calculado e vira 15. A vírgula coloca um espaço entre os dois itens.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-output-003",
+    "category": "PREVISAO_SAIDA",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "energia = 50\nprint(\"Antes:\", energia)\nenergia = energia - 20\nprint(\"Depois:\", energia)",
+    "options": [
+      "Antes: 30 e Depois: 30",
+      "Antes: 50 e Depois: 70",
+      "Antes: 50 e Depois: 20",
+      "Antes: 50 e Depois: 30"
+    ],
+    "answer": 3,
+    "explanation": "O primeiro print() acontece antes da subtração, então mostra 50. Depois a variável passa a valer 50 - 20 = 30, e o segundo print() mostra o novo valor.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-output-004",
+    "category": "PREVISAO_SAIDA",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "nivel = 2\nif nivel > 1:\n    print(\"Acesso\")\n    print(\"Nivel\", nivel)\nelse:\n    print(\"Negado\")",
+    "options": [
+      "Acesso e Nivel 2",
+      "Somente Acesso",
+      "Negado",
+      "Acesso e Nivel 1"
+    ],
+    "answer": 0,
+    "explanation": "2 > 1 é verdadeiro, então o bloco do if é executado por inteiro. Os dois print() têm indentação, e por isso aparecem: Acesso e depois Nivel 2.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-output-005",
+    "category": "PREVISAO_SAIDA",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "usuario = \"neo\"\nsenha = \"1234\"\nif usuario == \"neo\" and senha == \"1234\":\n    print(\"Bem-vindo, \" + usuario)\nelse:\n    print(\"Acesso negado\")",
+    "options": [
+      "Acesso negado",
+      "Bem-vindo, neo",
+      "Bem-vindo, usuario",
+      "Bem-vindo,neo"
+    ],
+    "answer": 1,
+    "explanation": "As duas comparações são verdadeiras, então o if é executado. O texto \"Bem-vindo, \" (com espaço no final) é juntado ao valor de usuario, resultando em Bem-vindo, neo.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-output-006",
+    "category": "PREVISAO_SAIDA",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "a = 5\nb = 10\nresultado = a > b\nprint(resultado, not resultado)",
+    "options": [
+      "True False",
+      "False True",
+      "False False",
+      "5 10"
+    ],
+    "answer": 1,
+    "explanation": "A variável resultado guarda o valor da comparação 5 > 10, que é False. Depois, not resultado inverte esse valor e vira True.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-output-007",
+    "category": "PREVISAO_SAIDA",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "pontos = 0\npontos = pontos + 10\nif pontos >= 10:\n    pontos = pontos + 5\nif pontos >= 15:\n    pontos = pontos + 5\nprint(pontos)",
+    "options": [
+      "10",
+      "20",
+      "15",
+      "25"
+    ],
+    "answer": 1,
+    "explanation": "Passo a passo: pontos = 10. O primeiro if é verdadeiro e pontos vira 15. Como agora 15 >= 15 é verdadeiro, o segundo if também roda e pontos vira 20.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-output-008",
+    "category": "PREVISAO_SAIDA",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "hp = 100\ndano = 45\nhp = hp - dano * 2\nif hp > 50:\n    print(\"Forte\")\nelif hp > 0:\n    print(\"Ferido\")\nelse:\n    print(\"Derrotado\")",
+    "options": [
+      "Forte",
+      "Derrotado",
+      "Nada será exibido",
+      "Ferido"
+    ],
+    "answer": 3,
+    "explanation": "A multiplicação vem primeiro: 45 * 2 = 90, e hp fica com 100 - 90 = 10. Então 10 > 50 é falso e 10 > 0 é verdadeiro, e o programa exibe Ferido.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-output-009",
+    "category": "PREVISAO_SAIDA",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "nome = \"Trinity\"\nprint(\"Ola,\", nome + \"!\")",
+    "options": [
+      "Ola, Trinity!",
+      "Ola,Trinity!",
+      "Ola, Trinity !",
+      "Ola, nome!"
+    ],
+    "answer": 0,
+    "explanation": "O nome + \"!\" junta os textos e vira Trinity!. Como o texto \"Ola,\" e esse resultado são separados por vírgula, o print() coloca um espaço entre eles.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-output-010",
+    "category": "PREVISAO_SAIDA",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "chave = True\nalarme = True\nif chave and not alarme:\n    print(\"Porta aberta\")\nelif chave and alarme:\n    print(\"Modo seguro\")\nelse:\n    print(\"Porta trancada\")",
+    "options": [
+      "Porta aberta",
+      "Modo seguro",
+      "Porta trancada",
+      "Nada será exibido"
+    ],
+    "answer": 1,
+    "explanation": "No primeiro teste, not alarme é False, então a condição falha. No segundo, chave e alarme são True, então o elif é verdadeiro e exibe Modo seguro.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-output-011",
+    "category": "PREVISAO_SAIDA",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "preco = 20\ndinheiro = 15\nif dinheiro >= preco:\n    print(\"Comprou\")\nelse:\n    print(\"Faltam\", preco - dinheiro)",
+    "options": [
+      "Faltam 5",
+      "Comprou",
+      "Faltam 35",
+      "Faltam 15"
+    ],
+    "answer": 0,
+    "explanation": "15 >= 20 é falso, então o else é executado. A expressão preco - dinheiro vale 20 - 15 = 5, e o print() mostra: Faltam 5.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-output-012",
+    "category": "PREVISAO_SAIDA",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "a = 5\nb = 5\nif a > b:\n    print(\"1\")\nelif a == b:\n    print(\"2\")\nif a >= b:\n    print(\"3\")",
+    "options": [
+      "2 e 3",
+      "Somente 3",
+      "1 e 3",
+      "Somente 2"
+    ],
+    "answer": 0,
+    "explanation": "O primeiro conjunto if/elif escolhe um único caminho: 5 > 5 é falso e 5 == 5 é verdadeiro, então exibe 2. O último if é independente: 5 >= 5 é verdadeiro e exibe 3.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-debug-001",
+    "category": "DEBUG",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual é o problema deste código?",
+    "code": "idade = 15\nif idade >= 18\n    print(\"Maior de idade\")",
+    "options": [
+      "A variável idade não foi criada",
+      "O print está escrito errado",
+      "Falta o : no final da linha do if",
+      "O operador >= não existe em Python"
+    ],
+    "answer": 2,
+    "explanation": "Toda linha com if precisa terminar com dois pontos (:). Sem eles, o Python não consegue entender a estrutura e mostra um erro de sintaxe.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-debug-002",
+    "category": "DEBUG",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual é o problema deste código?",
+    "code": "energia = 10\nif energia < 20:\nprint(\"Baixa\")",
+    "options": [
+      "Falta o : depois do if",
+      "A variável energia não existe",
+      "O print dentro do if precisa estar indentado",
+      "O operador < não pode ser usado com if"
+    ],
+    "answer": 2,
+    "explanation": "O que deve rodar dentro do if precisa ser escrito com indentação (um recuo para a direita). Sem ela, o Python não sabe que o print() pertence ao if.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-debug-003",
+    "category": "DEBUG",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Por que este código gera erro?",
+    "code": "nome = \"Neo\"\nprint(Nome)",
+    "options": [
+      "Nome (com N maiúsculo) não é a mesma variável que nome",
+      "O print não aceita variáveis",
+      "Faltaram aspas em Neo",
+      "nome é uma palavra reservada do Python"
+    ],
+    "answer": 0,
+    "explanation": "O Python diferencia maiúsculas de minúsculas. A variável criada foi nome, mas o print() tenta usar Nome, que não existe.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-debug-004",
+    "category": "DEBUG",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Por que este código gera erro?",
+    "code": "print(Ola)",
+    "options": [
+      "O comando print deveria começar com letra maiúscula",
+      "Faltou fechar o parêntese",
+      "Ola está sem aspas, então o Python procura uma variável chamada Ola",
+      "Textos não podem ser exibidos com print"
+    ],
+    "answer": 2,
+    "explanation": "Texto precisa estar entre aspas. Sem aspas, o Python entende Ola como o nome de uma variável, e como ela não foi criada, ocorre um erro.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-debug-005",
+    "category": "DEBUG",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Este programa foi feito para dizer se a pessoa é maior de idade. Ele executa, mas exibe Menor de idade para 20 anos. Que tipo de erro é esse?",
+    "code": "idade = 20\nif idade < 18:\n    print(\"Maior de idade\")\nelse:\n    print(\"Menor de idade\")",
+    "options": [
+      "Erro de sintaxe: faltam dois pontos",
+      "Erro de sintaxe: o else está escrito errado",
+      "Erro lógico: o código executa, mas a condição está invertida",
+      "Não há erro, o resultado está correto"
+    ],
+    "answer": 2,
+    "explanation": "Erro de sintaxe impede o código de rodar. Aqui o código roda normalmente, mas produz o resultado errado, o que é um erro lógico. A condição deveria ser idade >= 18, ou as mensagens deveriam estar trocadas.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-debug-006",
+    "category": "DEBUG",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O objetivo é verificar se idade é igual a 18, mas o código tem um erro. Qual linha corrige o if?",
+    "code": "idade = 15\nif idade = 18:\n    print(\"Adulto\")",
+    "options": [
+      "if idade => 18:",
+      "if idade === 18:",
+      "if idade equals 18:",
+      "if idade == 18:"
+    ],
+    "answer": 3,
+    "explanation": "Para comparar valores usamos ==. O sinal = serve apenas para guardar um valor em uma variável. As outras alternativas usam operadores que não existem em Python.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-debug-007",
+    "category": "DEBUG",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Por que a mensagem Excelente nunca aparece, mesmo com 95 pontos?",
+    "code": "pontos = 95\nif pontos >= 60:\n    print(\"Aprovado\")\nelif pontos >= 90:\n    print(\"Excelente\")",
+    "options": [
+      "Todo valor maior ou igual a 90 também é maior ou igual a 60, então o primeiro if já é verdadeiro e o elif nunca é alcançado",
+      "O elif precisa de um else logo antes dele",
+      "95 não é maior que 90",
+      "Faltam parênteses na condição do elif"
+    ],
+    "answer": 0,
+    "explanation": "O Python executa apenas o primeiro bloco verdadeiro. Como 95 >= 60 já é verdadeiro, ele exibe Aprovado e ignora o elif. Para corrigir, a condição mais específica (>= 90) deve vir primeiro.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-debug-008",
+    "category": "DEBUG",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O objetivo é exibir Faixa especial para quem tem menos de 13 ou mais de 17 anos. Mas, com idade = 12, aparece Fora da faixa. Qual é o erro?",
+    "code": "idade = 12\nif idade < 13 and idade > 17:\n    print(\"Faixa especial\")\nelse:\n    print(\"Fora da faixa\")",
+    "options": [
+      "A variável idade deveria ser um texto",
+      "Nenhum número é menor que 13 e maior que 17 ao mesmo tempo; o correto seria usar or",
+      "Faltou usar elif",
+      "O operador > está escrito errado"
+    ],
+    "answer": 1,
+    "explanation": "Com and, as duas condições precisam ser verdadeiras juntas, e isso é impossível aqui. Com or, basta uma delas: idade < 13 or idade > 17.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-debug-009",
+    "category": "DEBUG",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual é o problema deste código?",
+    "code": "nivel = 4\nif nivel > 5:\n    print(\"Alto\")\nelse if nivel > 2:\n    print(\"Medio\")",
+    "options": [
+      "A comparação nivel > 2 está incorreta",
+      "Em Python usa-se elif, e não else if",
+      "O primeiro print deveria estar fora do if",
+      "Não há erro: else if é válido em Python"
+    ],
+    "answer": 1,
+    "explanation": "Para testar uma nova condição depois de um if, o Python usa a palavra elif. Escrever else if causa erro de sintaxe.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-debug-010",
+    "category": "DEBUG",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual é o problema deste código?",
+    "code": "x = 7\nif x > 5 and < 10:\n    print(\"Dentro\")",
+    "options": [
+      "Depois do and é preciso escrever a variável de novo: x < 10",
+      "O operador and só funciona com texto",
+      "Falta um : depois de x",
+      "O número 10 deve estar entre aspas"
+    ],
+    "answer": 0,
+    "explanation": "Cada lado do and precisa ser uma condição completa. O correto é x > 5 and x < 10.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-debug-011",
+    "category": "DEBUG",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "Por que este código gera erro?",
+    "code": "pontos = \"10\"\nif pontos > 5:\n    print(\"Bom\")",
+    "options": [
+      "pontos guarda um texto, e um texto não pode ser comparado com um número usando >",
+      "A variável pontos não foi criada",
+      "Falta indentação no print",
+      "O operador > só pode ser usado dentro de um print"
+    ],
+    "answer": 0,
+    "explanation": "O valor \"10\" está entre aspas, então é um texto (str). O Python não sabe comparar texto com número usando >. A solução é guardar o número sem aspas: pontos = 10.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-debug-012",
+    "category": "DEBUG",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O objetivo é diminuir a vida do personagem pelo valor do dano, mas o código exibe 120. Qual linha corrige a atualização de vida?",
+    "code": "dano = 20\nvida = 100\nvida = vida + dano\nprint(vida)",
+    "options": [
+      "vida = vida - dano",
+      "vida = dano - vida",
+      "vida - dano = vida",
+      "vida = vida * dano"
+    ],
+    "answer": 0,
+    "explanation": "Para diminuir, usamos subtração: 100 - 20 = 80. Trocar a ordem daria -80, multiplicar daria 2000, e escrever a conta do lado esquerdo do = é inválido.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-logic-001",
+    "category": "LOGICA",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Um portal só abre quando a chave é True e o alarme é False. Qual condição representa isso?",
+    "code": null,
+    "options": [
+      "chave and alarme",
+      "chave or not alarme",
+      "chave and not alarme",
+      "not chave and alarme"
+    ],
+    "answer": 2,
+    "explanation": "Precisamos de chave verdadeira e, ao mesmo tempo, alarme falso. Como o not transforma False em True, escrevemos chave and not alarme.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-logic-002",
+    "category": "LOGICA",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "Uma porta abre quando (a senha está correta ou o cartão é válido) e o alarme está desligado (False). Qual condição representa isso?",
+    "code": null,
+    "options": [
+      "senha or cartao and not alarme",
+      "senha and cartao and not alarme",
+      "(senha or cartao) and not alarme",
+      "(senha or cartao) or not alarme"
+    ],
+    "answer": 2,
+    "explanation": "Os parênteses garantem que o or seja resolvido primeiro. Sem eles, o and seria resolvido antes e a regra mudaria: a senha correta abriria a porta mesmo com o alarme ligado.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-logic-003",
+    "category": "LOGICA",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "Quantas mensagens serão exibidas?",
+    "code": "a = 4\nif a > 2:\n    print(\"ALFA\")\nif a > 4:\n    print(\"BETA\")\nif a >= 4:\n    print(\"GAMA\")\nif a != 4:\n    print(\"DELTA\")",
+    "options": [
+      "1",
+      "3",
+      "2",
+      "4"
+    ],
+    "answer": 2,
+    "explanation": "Cada if é avaliado separadamente: 4 > 2 é verdadeiro (ALFA), 4 > 4 é falso, 4 >= 4 é verdadeiro (GAMA) e 4 != 4 é falso. Ao todo, 2 mensagens.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-logic-004",
+    "category": "LOGICA",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "Qual alteração na primeira linha faz o programa exibir ACESSO? Considere apenas números inteiros.",
+    "code": "codigo = 7\nif codigo > 5 and codigo < 7:\n    print(\"ACESSO\")",
+    "options": [
+      "codigo = 6",
+      "codigo = 5",
+      "codigo = 4",
+      "codigo = 8"
+    ],
+    "answer": 0,
+    "explanation": "Para números inteiros, o único valor que é maior que 5 e menor que 7 ao mesmo tempo é o 6. O 5 e o 4 não são maiores que 5, e o 8 não é menor que 7.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-logic-005",
+    "category": "LOGICA",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual alteração faz o programa exibir Protegido?",
+    "code": "energia = 40\nescudo = True\nif energia >= 50 and escudo:\n    print(\"Protegido\")\nelse:\n    print(\"Vulneravel\")",
+    "options": [
+      "Trocar energia = 40 por energia = 45",
+      "Trocar escudo = True por escudo = False",
+      "Trocar energia = 40 por energia = 55",
+      "Trocar escudo por not escudo na condição"
+    ],
+    "answer": 2,
+    "explanation": "As duas partes do and precisam ser verdadeiras. O escudo já é True, então falta energia >= 50, e isso só acontece com 55. Com 45 a condição continua falsa, e as outras duas opções tornam o escudo falso.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-mixed-001",
+    "category": "DESAFIO_MISTO",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "bateria = 100\nconsumo = 30\nbateria = bateria - consumo * 2\nif bateria >= 50:\n    print(\"Voo autorizado\")\nelse:\n    print(\"Recarregar\")",
+    "options": [
+      "Recarregar",
+      "Voo autorizado",
+      "Nada será exibido",
+      "Voo autorizado e Recarregar"
+    ],
+    "answer": 0,
+    "explanation": "A multiplicação vem primeiro: 30 * 2 = 60. Então bateria = 100 - 60 = 40. Como 40 >= 50 é falso, o else exibe Recarregar.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-mixed-002",
+    "category": "DESAFIO_MISTO",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "pontos = 8\nbonus = 2\ntotal = pontos + bonus * 3\nif total > 15:\n    print(\"Nivel 2\")\nelif total > 10:\n    print(\"Nivel 1\")\nelse:\n    print(\"Nivel 0\")",
+    "options": [
+      "Nivel 2",
+      "Nivel 0",
+      "Nada será exibido",
+      "Nivel 1"
+    ],
+    "answer": 3,
+    "explanation": "A multiplicação é feita antes da soma: bonus * 3 = 6, e total = 8 + 6 = 14. Então 14 > 15 é falso e 14 > 10 é verdadeiro, e o programa exibe Nivel 1.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-mixed-003",
+    "category": "DESAFIO_MISTO",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "tentativas = 3\nsenha_ok = False\nif senha_ok:\n    print(\"Acesso liberado\")\nelif tentativas >= 3:\n    print(\"Conta bloqueada\")\nelse:\n    print(\"Tente novamente\")",
+    "options": [
+      "Acesso liberado",
+      "Tente novamente",
+      "Conta bloqueada",
+      "Nada será exibido"
+    ],
+    "answer": 2,
+    "explanation": "senha_ok é False, então o if não roda. No elif, 3 >= 3 é verdadeiro, e o programa exibe Conta bloqueada.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-mixed-004",
+    "category": "DESAFIO_MISTO",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "custo = 40\ncreditos = 100\ncreditos = creditos - custo\npode_comprar = creditos >= 50\nprint(pode_comprar, creditos)",
+    "options": [
+      "True 60",
+      "False 60",
+      "True 100",
+      "True 40"
+    ],
+    "answer": 0,
+    "explanation": "creditos vira 100 - 40 = 60. A variável pode_comprar guarda o resultado de 60 >= 50, que é True. O print() mostra os dois valores: True 60.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-mixed-005",
+    "category": "DESAFIO_MISTO",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "x = 15\ny = 5\nif x - y > 5 and x + y < 20:\n    print(\"Zona verde\")\nelif x - y > 5:\n    print(\"Zona amarela\")\nelse:\n    print(\"Zona vermelha\")",
+    "options": [
+      "Zona verde",
+      "Zona amarela",
+      "Zona vermelha",
+      "Nada será exibido"
+    ],
+    "answer": 1,
+    "explanation": "x - y = 10, e 10 > 5 é verdadeiro. Mas x + y = 20, e 20 < 20 é falso, então o primeiro and falha. No elif, x - y > 5 é verdadeiro e exibe Zona amarela.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-mixed-006",
+    "category": "DESAFIO_MISTO",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual valor deve substituir o 0 na primeira linha para o programa exibir Modo economia?",
+    "code": "energia = 0\nif energia >= 80:\n    print(\"Turbo\")\nelif energia >= 40:\n    print(\"Normal\")\nelif energia >= 10:\n    print(\"Modo economia\")\nelse:\n    print(\"Desligando\")",
+    "options": [
+      "5",
+      "40",
+      "90",
+      "25"
+    ],
+    "answer": 3,
+    "explanation": "Modo economia aparece quando energia é menor que 40 (senão cairia no Normal) e pelo menos 10. Dos valores, apenas 25 cumpre isso. O 5 exibe Desligando, o 40 exibe Normal e o 90 exibe Turbo.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-mixed-007",
+    "category": "DESAFIO_MISTO",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "acessos = 2\nlimite = 3\nacessos = acessos + 1\nif acessos < limite:\n    print(\"Permitido\")\nelse:\n    print(\"Limite atingido\")",
+    "options": [
+      "Permitido",
+      "Limite atingido",
+      "Nada será exibido",
+      "Permitido e Limite atingido"
+    ],
+    "answer": 1,
+    "explanation": "Antes do if, acessos passa a valer 2 + 1 = 3. A condição 3 < 3 é falsa, porque 3 não é menor que 3. Então o else exibe Limite atingido.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-mixed-008",
+    "category": "DESAFIO_MISTO",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "a = 2\nb = 3\nc = a * b\nif c == a + b:\n    print(\"Igual\")\nelif c > a + b:\n    print(\"Maior\")\nelse:\n    print(\"Menor\")",
+    "options": [
+      "Igual",
+      "Menor",
+      "Maior",
+      "Maior e Menor"
+    ],
+    "answer": 2,
+    "explanation": "c = 2 * 3 = 6 e a + b = 5. Então 6 == 5 é falso e 6 > 5 é verdadeiro, e o programa exibe Maior.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-mixed-009",
+    "category": "DESAFIO_MISTO",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "Uma gangue só entra em duelo se a energia é de pelo menos 50 e o escudo estiver ativo (True). Qual condição representa isso?",
+    "code": null,
+    "options": [
+      "energia > 50 and escudo",
+      "energia >= 50 or escudo",
+      "energia >= 50 and not escudo",
+      "energia >= 50 and escudo"
+    ],
+    "answer": 3,
+    "explanation": "\"Pelo menos 50\" significa 50 ou mais, então usamos >=. As duas exigências valem ao mesmo tempo, então usamos and. Com > a energia exata de 50 ficaria de fora.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-mixed-010",
+    "category": "DESAFIO_MISTO",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "preco = 4.5\nquantidade = 4\ntotal = preco * quantidade\nprint(\"Total:\", total)\nif total > 15:\n    print(\"Caro\")\nelse:\n    print(\"Barato\")",
+    "options": [
+      "Total: 18.0 e Caro",
+      "Total: 18 e Caro",
+      "Total: 18.0 e Barato",
+      "Total: 8.5 e Barato"
+    ],
+    "answer": 0,
+    "explanation": "4.5 * 4 = 18.0, e o resultado é um float, por isso aparece 18.0. Como 18.0 > 15 é verdadeiro, o programa exibe Caro logo em seguida.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-mixed-011",
+    "category": "DESAFIO_MISTO",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "idade = 17\nmaior = idade >= 18\nif not maior:\n    print(\"Responsavel necessario\")\nelse:\n    print(\"Livre\")",
+    "options": [
+      "Livre",
+      "Responsavel necessario",
+      "Nada será exibido",
+      "Responsavel necessario e Livre"
+    ],
+    "answer": 1,
+    "explanation": "A variável maior guarda o resultado de 17 >= 18, que é False. O not inverte para True, então o if é executado e exibe Responsavel necessario.",
+    "timeLimit": null
+  },
+  {
+    "id": "py-mixed-012",
+    "category": "DESAFIO_MISTO",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "energia = 45\nescudo = True\nataque = 30\nenergia = energia - ataque\nif escudo:\n    energia = energia + 20\nif energia >= 30 and not (energia > 60):\n    print(\"Sobreviveu\")\nelse:\n    print(\"Derrotado\")",
+    "options": [
+      "Derrotado",
+      "Nada será exibido",
+      "Sobreviveu",
+      "Sobreviveu e Derrotado"
+    ],
+    "answer": 2,
+    "explanation": "Passo a passo: energia = 45 - 30 = 15. Como escudo é True, energia vira 15 + 20 = 35. Na última condição, 35 >= 30 é verdadeiro e not (35 > 60) também, então exibe Sobreviveu.",
+    "timeLimit": null
+  }
+]

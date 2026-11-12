@@ -1,0 +1,35 @@
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs e temporários
+*.log
+*.tmp
+*.bak
+
+# Dependências
+node_modules/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Arquivos de build/cache
+.cache/
+coverage/
+
+# Ambientes e builds locais
+/.venv/
+/dist/
+
+# Implementação antiga (fora do projeto Neon City)
+/css/
+/js/

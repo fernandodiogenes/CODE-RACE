@@ -1,0 +1,677 @@
+{
+  "pf-print-001": {
+    "type": "output-prediction",
+    "slide": "1",
+    "optionCount": 4
+  },
+  "pf-print-002": {
+    "type": "output-prediction",
+    "slide": "8",
+    "optionCount": 4
+  },
+  "pf-print-003": {
+    "type": "concept",
+    "slide": "4",
+    "optionCount": 4
+  },
+  "pf-print-004": {
+    "type": "output-prediction",
+    "slide": "5",
+    "optionCount": 4
+  },
+  "pf-print-005": {
+    "type": "output-prediction",
+    "slide": "5",
+    "optionCount": 4
+  },
+  "pf-print-006": {
+    "type": "concept",
+    "slide": "4",
+    "optionCount": 4
+  },
+  "pf-print-007": {
+    "type": "output-prediction",
+    "slide": "4",
+    "optionCount": 4
+  },
+  "pf-print-008": {
+    "type": "output-prediction",
+    "slide": "12",
+    "optionCount": 4
+  },
+  "pf-print-009": {
+    "type": "correct-code",
+    "slide": "5",
+    "optionCount": 4
+  },
+  "pf-print-010": {
+    "type": "output-prediction",
+    "slide": "8",
+    "optionCount": 4
+  },
+  "pf-print-011": {
+    "type": "true-false",
+    "slide": "5",
+    "optionCount": 2
+  },
+  "pf-string-001": {
+    "type": "type-identification",
+    "slide": "5",
+    "optionCount": 4
+  },
+  "pf-string-002": {
+    "type": "output-prediction",
+    "slide": "5",
+    "optionCount": 4
+  },
+  "pf-string-003": {
+    "type": "true-false",
+    "slide": "5",
+    "optionCount": 2
+  },
+  "pf-string-004": {
+    "type": "output-prediction",
+    "slide": "5",
+    "optionCount": 4
+  },
+  "pf-string-005": {
+    "type": "output-prediction",
+    "slide": "5",
+    "optionCount": 4
+  },
+  "pf-string-006": {
+    "type": "type-identification",
+    "slide": "6",
+    "optionCount": 4
+  },
+  "pf-string-007": {
+    "type": "comparison",
+    "slide": "7",
+    "optionCount": 4
+  },
+  "pf-string-008": {
+    "type": "true-false",
+    "slide": "5",
+    "optionCount": 2
+  },
+  "pf-string-009": {
+    "type": "type-identification",
+    "slide": "5",
+    "optionCount": 4
+  },
+  "pf-variable-001": {
+    "type": "output-prediction",
+    "slide": "5",
+    "optionCount": 4
+  },
+  "pf-variable-002": {
+    "type": "type-identification",
+    "slide": "6",
+    "optionCount": 4
+  },
+  "pf-variable-003": {
+    "type": "type-identification",
+    "slide": "6",
+    "optionCount": 4
+  },
+  "pf-variable-004": {
+    "type": "type-identification",
+    "slide": "6",
+    "optionCount": 4
+  },
+  "pf-variable-005": {
+    "type": "type-identification",
+    "slide": "6",
+    "optionCount": 4
+  },
+  "pf-variable-006": {
+    "type": "concept",
+    "slide": "5",
+    "optionCount": 4
+  },
+  "pf-variable-007": {
+    "type": "output-prediction",
+    "slide": "5",
+    "optionCount": 4
+  },
+  "pf-variable-008": {
+    "type": "output-prediction",
+    "slide": "13",
+    "optionCount": 4
+  },
+  "pf-variable-009": {
+    "type": "output-prediction",
+    "slide": "5",
+    "optionCount": 4
+  },
+  "pf-variable-010": {
+    "type": "correct-code",
+    "slide": "7",
+    "optionCount": 4
+  },
+  "pf-variable-011": {
+    "type": "true-false",
+    "slide": "7",
+    "optionCount": 2
+  },
+  "pf-variable-012": {
+    "type": "type-identification",
+    "slide": "6",
+    "optionCount": 4
+  },
+  "pf-variable-013": {
+    "type": "type-identification",
+    "slide": "9",
+    "optionCount": 4
+  },
+  "pf-variable-014": {
+    "type": "type-identification",
+    "slide": "6",
+    "optionCount": 4
+  },
+  "pf-variable-015": {
+    "type": "output-prediction",
+    "slide": "12",
+    "optionCount": 4
+  },
+  "pf-variable-016": {
+    "type": "true-false",
+    "slide": "6",
+    "optionCount": 2
+  },
+  "pf-math-001": {
+    "type": "math",
+    "slide": "8",
+    "optionCount": 4
+  },
+  "pf-math-002": {
+    "type": "math",
+    "slide": "8",
+    "optionCount": 4
+  },
+  "pf-math-003": {
+    "type": "concept",
+    "slide": "8",
+    "optionCount": 4
+  },
+  "pf-math-004": {
+    "type": "true-false",
+    "slide": "8",
+    "optionCount": 2
+  },
+  "pf-math-005": {
+    "type": "math",
+    "slide": "8",
+    "optionCount": 4
+  },
+  "pf-math-006": {
+    "type": "math",
+    "slide": "8",
+    "optionCount": 4
+  },
+  "pf-math-007": {
+    "type": "math",
+    "slide": "12",
+    "optionCount": 4
+  },
+  "pf-math-008": {
+    "type": "math",
+    "slide": "8",
+    "optionCount": 4
+  },
+  "pf-math-009": {
+    "type": "math",
+    "slide": "12",
+    "optionCount": 4
+  },
+  "pf-math-010": {
+    "type": "math",
+    "slide": "12",
+    "optionCount": 4
+  },
+  "pf-math-011": {
+    "type": "math",
+    "slide": "12",
+    "optionCount": 4
+  },
+  "pf-compare-001": {
+    "type": "comparison",
+    "slide": "8",
+    "optionCount": 4
+  },
+  "pf-compare-002": {
+    "type": "comparison",
+    "slide": "8",
+    "optionCount": 4
+  },
+  "pf-compare-003": {
+    "type": "comparison",
+    "slide": "9",
+    "optionCount": 4
+  },
+  "pf-compare-004": {
+    "type": "concept",
+    "slide": "7",
+    "optionCount": 4
+  },
+  "pf-compare-005": {
+    "type": "comparison",
+    "slide": "8",
+    "optionCount": 4
+  },
+  "pf-compare-006": {
+    "type": "comparison",
+    "slide": "8",
+    "optionCount": 4
+  },
+  "pf-compare-007": {
+    "type": "comparison",
+    "slide": "9",
+    "optionCount": 4
+  },
+  "pf-compare-008": {
+    "type": "true-false",
+    "slide": "9",
+    "optionCount": 2
+  },
+  "pf-compare-009": {
+    "type": "comparison",
+    "slide": "7",
+    "optionCount": 4
+  },
+  "pf-compare-010": {
+    "type": "concept",
+    "slide": "7",
+    "optionCount": 4
+  },
+  "pf-compare-011": {
+    "type": "comparison",
+    "slide": "8",
+    "optionCount": 4
+  },
+  "pf-compare-012": {
+    "type": "condition",
+    "slide": "8",
+    "optionCount": 4
+  },
+  "pf-compare-013": {
+    "type": "comparison",
+    "slide": "12",
+    "optionCount": 4
+  },
+  "pf-boolean-001": {
+    "type": "logic",
+    "slide": "8",
+    "optionCount": 4
+  },
+  "pf-boolean-002": {
+    "type": "logic",
+    "slide": "8",
+    "optionCount": 4
+  },
+  "pf-boolean-003": {
+    "type": "logic",
+    "slide": "8",
+    "optionCount": 4
+  },
+  "pf-boolean-004": {
+    "type": "concept",
+    "slide": "8",
+    "optionCount": 4
+  },
+  "pf-boolean-005": {
+    "type": "concept",
+    "slide": "8",
+    "optionCount": 4
+  },
+  "pf-boolean-006": {
+    "type": "true-false",
+    "slide": "8",
+    "optionCount": 2
+  },
+  "pf-boolean-007": {
+    "type": "logic",
+    "slide": "13",
+    "optionCount": 4
+  },
+  "pf-boolean-008": {
+    "type": "logic",
+    "slide": "13",
+    "optionCount": 4
+  },
+  "pf-boolean-009": {
+    "type": "logic",
+    "slide": "13",
+    "optionCount": 4
+  },
+  "pf-boolean-010": {
+    "type": "logic",
+    "slide": "13",
+    "optionCount": 4
+  },
+  "pf-boolean-011": {
+    "type": "logic",
+    "slide": "13",
+    "optionCount": 4
+  },
+  "pf-boolean-012": {
+    "type": "logic",
+    "slide": "13",
+    "optionCount": 4
+  },
+  "pf-boolean-013": {
+    "type": "logic",
+    "slide": "8",
+    "optionCount": 4
+  },
+  "pf-boolean-014": {
+    "type": "true-false",
+    "slide": "8",
+    "optionCount": 2
+  },
+  "pf-condition-001": {
+    "type": "condition",
+    "slide": "9",
+    "optionCount": 4
+  },
+  "pf-condition-002": {
+    "type": "condition",
+    "slide": "9",
+    "optionCount": 4
+  },
+  "pf-condition-003": {
+    "type": "condition",
+    "slide": "10",
+    "optionCount": 4
+  },
+  "pf-condition-004": {
+    "type": "condition",
+    "slide": "14",
+    "optionCount": 4
+  },
+  "pf-condition-005": {
+    "type": "condition",
+    "slide": "10",
+    "optionCount": 4
+  },
+  "pf-condition-006": {
+    "type": "condition",
+    "slide": "10",
+    "optionCount": 4
+  },
+  "pf-condition-007": {
+    "type": "condition",
+    "slide": "13",
+    "optionCount": 4
+  },
+  "pf-condition-008": {
+    "type": "condition",
+    "slide": "13",
+    "optionCount": 4
+  },
+  "pf-condition-009": {
+    "type": "concept",
+    "slide": "10",
+    "optionCount": 4
+  },
+  "pf-condition-010": {
+    "type": "concept",
+    "slide": "10",
+    "optionCount": 4
+  },
+  "pf-condition-011": {
+    "type": "condition",
+    "slide": "11",
+    "optionCount": 4
+  },
+  "pf-condition-012": {
+    "type": "true-false",
+    "slide": "10",
+    "optionCount": 2
+  },
+  "pf-condition-013": {
+    "type": "concept",
+    "slide": "3",
+    "optionCount": 4
+  },
+  "pf-condition-014": {
+    "type": "condition",
+    "slide": "10",
+    "optionCount": 4
+  },
+  "pf-condition-015": {
+    "type": "condition",
+    "slide": "7",
+    "optionCount": 4
+  },
+  "pf-condition-016": {
+    "type": "condition",
+    "slide": "8",
+    "optionCount": 4
+  },
+  "pf-condition-017": {
+    "type": "condition",
+    "slide": "10",
+    "optionCount": 4
+  },
+  "pf-condition-018": {
+    "type": "condition",
+    "slide": "14",
+    "optionCount": 4
+  },
+  "pf-condition-019": {
+    "type": "condition",
+    "slide": "10",
+    "optionCount": 4
+  },
+  "pf-condition-020": {
+    "type": "condition",
+    "slide": "6",
+    "optionCount": 4
+  },
+  "pf-condition-021": {
+    "type": "condition",
+    "slide": "9",
+    "optionCount": 4
+  },
+  "pf-condition-022": {
+    "type": "correct-code",
+    "slide": "11",
+    "optionCount": 4
+  },
+  "pf-output-001": {
+    "type": "output-prediction",
+    "slide": "5",
+    "optionCount": 4
+  },
+  "pf-output-002": {
+    "type": "output-prediction",
+    "slide": "12",
+    "optionCount": 4
+  },
+  "pf-output-003": {
+    "type": "output-prediction",
+    "slide": "12",
+    "optionCount": 4
+  },
+  "pf-output-004": {
+    "type": "output-prediction",
+    "slide": "12",
+    "optionCount": 4
+  },
+  "pf-output-005": {
+    "type": "output-prediction",
+    "slide": "9",
+    "optionCount": 4
+  },
+  "pf-output-006": {
+    "type": "output-prediction",
+    "slide": "12",
+    "optionCount": 4
+  },
+  "pf-output-007": {
+    "type": "output-prediction",
+    "slide": "11",
+    "optionCount": 4
+  },
+  "pf-output-008": {
+    "type": "output-prediction",
+    "slide": "10",
+    "optionCount": 4
+  },
+  "pf-output-009": {
+    "type": "output-prediction",
+    "slide": "12",
+    "optionCount": 4
+  },
+  "pf-output-010": {
+    "type": "output-prediction",
+    "slide": "12",
+    "optionCount": 4
+  },
+  "pf-output-011": {
+    "type": "output-prediction",
+    "slide": "9",
+    "optionCount": 4
+  },
+  "pf-output-012": {
+    "type": "output-prediction",
+    "slide": "10",
+    "optionCount": 4
+  },
+  "pf-debug-001": {
+    "type": "debug",
+    "slide": "15",
+    "optionCount": 4
+  },
+  "pf-debug-002": {
+    "type": "debug",
+    "slide": "15",
+    "optionCount": 4
+  },
+  "pf-debug-003": {
+    "type": "debug",
+    "slide": "15",
+    "optionCount": 4
+  },
+  "pf-debug-004": {
+    "type": "debug",
+    "slide": "11",
+    "optionCount": 4
+  },
+  "pf-debug-005": {
+    "type": "debug",
+    "slide": "16",
+    "optionCount": 4
+  },
+  "pf-debug-006": {
+    "type": "debug",
+    "slide": "16",
+    "optionCount": 4
+  },
+  "pf-debug-007": {
+    "type": "concept",
+    "slide": "16",
+    "optionCount": 4
+  },
+  "pf-debug-008": {
+    "type": "fix-code",
+    "slide": "7",
+    "optionCount": 4
+  },
+  "pf-debug-009": {
+    "type": "debug",
+    "slide": "10",
+    "optionCount": 4
+  },
+  "pf-debug-010": {
+    "type": "syntax",
+    "slide": "15",
+    "optionCount": 4
+  },
+  "pf-debug-011": {
+    "type": "true-false",
+    "slide": "15",
+    "optionCount": 2
+  },
+  "pf-debug-012": {
+    "type": "true-false",
+    "slide": "16",
+    "optionCount": 2
+  },
+  "pf-debug-013": {
+    "type": "true-false",
+    "slide": "7",
+    "optionCount": 2
+  },
+  "pf-debug-014": {
+    "type": "debug",
+    "slide": "5",
+    "optionCount": 4
+  },
+  "pf-logic-001": {
+    "type": "logic",
+    "slide": "8",
+    "optionCount": 4
+  },
+  "pf-logic-002": {
+    "type": "logic",
+    "slide": "13",
+    "optionCount": 4
+  },
+  "pf-logic-003": {
+    "type": "logic",
+    "slide": "8",
+    "optionCount": 4
+  },
+  "pf-logic-004": {
+    "type": "logic",
+    "slide": "13",
+    "optionCount": 4
+  },
+  "pf-logic-005": {
+    "type": "logic",
+    "slide": "8",
+    "optionCount": 4
+  },
+  "pf-mixed-001": {
+    "type": "mixed",
+    "slide": "12",
+    "optionCount": 4
+  },
+  "pf-mixed-002": {
+    "type": "mixed",
+    "slide": "12",
+    "optionCount": 4
+  },
+  "pf-mixed-003": {
+    "type": "mixed",
+    "slide": "13",
+    "optionCount": 4
+  },
+  "pf-mixed-004": {
+    "type": "mixed",
+    "slide": "13",
+    "optionCount": 4
+  },
+  "pf-mixed-005": {
+    "type": "mixed",
+    "slide": "12",
+    "optionCount": 4
+  },
+  "pf-mixed-006": {
+    "type": "correct-code",
+    "slide": "16",
+    "optionCount": 4
+  },
+  "pf-mixed-007": {
+    "type": "ordering",
+    "slide": "12",
+    "optionCount": 4
+  },
+  "pf-mixed-008": {
+    "type": "mixed",
+    "slide": "12",
+    "optionCount": 4
+  }
+}

@@ -1,0 +1,2271 @@
+[
+  {
+    "id": "pf-print-001",
+    "category": "INTRODUCAO_PRINT",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "print(\"Pronto para largar?\")",
+    "options": [
+      "Pronto para largar?",
+      "print(\"Pronto para largar?\")",
+      "\"Pronto para largar?\"",
+      "Erro"
+    ],
+    "answer": 0,
+    "explanation": "O print() mostra o texto que está entre as aspas, sem as aspas.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-print-002",
+    "category": "INTRODUCAO_PRINT",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "print(6 + 3)",
+    "options": [
+      "63",
+      "6 + 3",
+      "Erro",
+      "9"
+    ],
+    "answer": 3,
+    "explanation": "Sem aspas, o Python faz a conta. 6 + 3 é 9.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-print-003",
+    "category": "INTRODUCAO_PRINT",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Para que serve o print()?",
+    "code": null,
+    "options": [
+      "Guardar um valor",
+      "Mostrar algo na tela",
+      "Comparar dois valores",
+      "Receber o que a pessoa digita"
+    ],
+    "answer": 1,
+    "explanation": "O print() é a saída do programa: ele mostra informações na tela.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-print-004",
+    "category": "INTRODUCAO_PRINT",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "print(\"5 + 2\")",
+    "options": [
+      "7",
+      "52",
+      "5 + 2",
+      "Erro"
+    ],
+    "answer": 2,
+    "explanation": "O que está entre aspas é texto e aparece exatamente como foi escrito. A conta não é feita.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-print-005",
+    "category": "INTRODUCAO_PRINT",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "print(\"Ana\", 10)",
+    "options": [
+      "Ana10",
+      "Ana, 10",
+      "Erro",
+      "Ana 10"
+    ],
+    "answer": 3,
+    "explanation": "A vírgula separa os itens, e o print() coloca um espaço entre eles.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-print-006",
+    "category": "INTRODUCAO_PRINT",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Para que serve o input()?",
+    "code": null,
+    "options": [
+      "Mostrar um texto na tela",
+      "Receber o que a pessoa digita",
+      "Comparar dois valores",
+      "Fazer uma conta"
+    ],
+    "answer": 1,
+    "explanation": "O input() é a entrada: ele espera a pessoa digitar e entrega o que foi digitado.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-print-007",
+    "category": "INTRODUCAO_PRINT",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "A pessoa digita Ana. O que será exibido?",
+    "code": "nome = input(\"Digite seu nome: \")\nprint(\"Olá,\", nome)",
+    "options": [
+      "Olá, Ana",
+      "Olá, nome",
+      "Digite seu nome: Ana",
+      "Olá,Ana"
+    ],
+    "answer": 0,
+    "explanation": "O input() guarda o que foi digitado na variável nome. O print() mostra Olá, e o valor de nome.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-print-008",
+    "category": "INTRODUCAO_PRINT",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Em que ordem as mensagens aparecem?",
+    "code": "print(\"Oi\")\nprint(\"Tchau\")",
+    "options": [
+      "Tchau, depois Oi",
+      "Somente Oi",
+      "Oi, depois Tchau",
+      "Somente Tchau"
+    ],
+    "answer": 2,
+    "explanation": "O Python lê de cima para baixo, uma linha por vez.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-print-009",
+    "category": "INTRODUCAO_PRINT",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual comando exibe Boa sorte?",
+    "code": null,
+    "options": [
+      "print(Boa sorte)",
+      "print(\"Boa sorte\")",
+      "print(\"Boa sorte\"",
+      "print('Boa sorte)"
+    ],
+    "answer": 1,
+    "explanation": "O texto precisa estar entre aspas, e as aspas e o parêntese precisam ser fechados.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-print-010",
+    "category": "INTRODUCAO_PRINT",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "print(4 + 1, \"vidas\")",
+    "options": [
+      "4 + 1 vidas",
+      "5 vidas",
+      "41 vidas",
+      "5vidas"
+    ],
+    "answer": 1,
+    "explanation": "4 + 1 é uma conta e vira 5. \"vidas\" é texto. A vírgula coloca um espaço entre os dois.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-print-011",
+    "category": "INTRODUCAO_PRINT",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Verdadeiro ou falso: o texto dentro do print() precisa estar entre aspas.",
+    "code": null,
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": 0,
+    "explanation": "Texto sempre vai entre aspas. Sem aspas, o Python pensa que é outra coisa.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-string-001",
+    "category": "STRINGS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual destes valores é uma string (texto)?",
+    "code": null,
+    "options": [
+      "10",
+      "9.5",
+      "\"Ana\"",
+      "True"
+    ],
+    "answer": 2,
+    "explanation": "Strings são textos entre aspas. Os outros valores são int, float e bool.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-string-002",
+    "category": "STRINGS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "print('Code Race')",
+    "options": [
+      "'Code Race'",
+      "Code Race",
+      "Erro",
+      "print"
+    ],
+    "answer": 1,
+    "explanation": "Aspas simples e duplas funcionam igual. O print() mostra o texto sem as aspas.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-string-003",
+    "category": "STRINGS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Verdadeiro ou falso: 'Olá' e \"Olá\" são duas formas válidas de escrever a mesma string.",
+    "code": null,
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": 0,
+    "explanation": "Em Python, o texto pode ficar entre aspas simples ou duplas.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-string-004",
+    "category": "STRINGS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "jogador = \"Ana\"\nprint(jogador)",
+    "options": [
+      "Ana",
+      "jogador",
+      "\"Ana\"",
+      "Erro"
+    ],
+    "answer": 0,
+    "explanation": "A variável jogador guarda o texto Ana. O print() mostra o valor guardado.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-string-005",
+    "category": "STRINGS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "nome = \"Ana\"\nprint(\"nome\")",
+    "options": [
+      "Ana",
+      "\"nome\"",
+      "nome",
+      "Erro"
+    ],
+    "answer": 2,
+    "explanation": "O que está entre aspas é texto puro. Como \"nome\" tem aspas, o print() mostra a palavra nome, e não o valor da variável.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-string-006",
+    "category": "STRINGS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual é o tipo de codigo?",
+    "code": "codigo = \"123\"",
+    "options": [
+      "int",
+      "str",
+      "float",
+      "bool"
+    ],
+    "answer": 1,
+    "explanation": "Está entre aspas, então é um texto (str), mesmo parecendo um número.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-string-007",
+    "category": "STRINGS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "nome = \"Ana\"\nprint(nome == \"Ana\")",
+    "options": [
+      "False",
+      "Ana",
+      "Erro",
+      "True"
+    ],
+    "answer": 3,
+    "explanation": "O sinal == pergunta se são iguais. O texto de nome é Ana, então o resultado é True.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-string-008",
+    "category": "STRINGS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Verdadeiro ou falso: print(\"Neo\") mostra as aspas na tela.",
+    "code": null,
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": 1,
+    "explanation": "As aspas só marcam onde o texto começa e termina. Na tela aparece apenas Neo.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-string-009",
+    "category": "STRINGS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual alternativa é uma string válida?",
+    "code": null,
+    "options": [
+      "Neo",
+      "\"Neo'",
+      "Neo\"",
+      "\"Neo\""
+    ],
+    "answer": 3,
+    "explanation": "Uma string precisa abrir e fechar com o mesmo tipo de aspas.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-variable-001",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "pontos = 10\nprint(pontos)",
+    "options": [
+      "pontos",
+      "pontos = 10",
+      "10",
+      "Erro"
+    ],
+    "answer": 2,
+    "explanation": "A variável pontos guarda 10. O print() mostra o valor guardado, não o nome.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-variable-002",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual é o tipo de idade?",
+    "code": "idade = 15",
+    "options": [
+      "float",
+      "int",
+      "str",
+      "bool"
+    ],
+    "answer": 1,
+    "explanation": "15 é um número inteiro, ou seja, int.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-variable-003",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual é o tipo de nota?",
+    "code": "nota = 9.5",
+    "options": [
+      "int",
+      "str",
+      "float",
+      "bool"
+    ],
+    "answer": 2,
+    "explanation": "Número com ponto decimal é float.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-variable-004",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual é o tipo de ganhou?",
+    "code": "ganhou = True",
+    "options": [
+      "bool",
+      "int",
+      "str",
+      "float"
+    ],
+    "answer": 0,
+    "explanation": "True e False são valores verdadeiro ou falso. O tipo deles é bool.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-variable-005",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual é o tipo de nome?",
+    "code": "nome = \"Ana\"",
+    "options": [
+      "int",
+      "float",
+      "bool",
+      "str"
+    ],
+    "answer": 3,
+    "explanation": "Texto entre aspas é do tipo str.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-variable-006",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Como podemos pensar em uma variável?",
+    "code": null,
+    "options": [
+      "Uma caixa com etiqueta que guarda um valor",
+      "Um texto que aparece na tela",
+      "Uma conta de matemática",
+      "Uma pergunta feita à pessoa"
+    ],
+    "answer": 0,
+    "explanation": "A variável tem um nome (a etiqueta) e guarda um valor para usarmos depois.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-variable-007",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "x = 5\nx = 8\nprint(x)",
+    "options": [
+      "5",
+      "8",
+      "13",
+      "x"
+    ],
+    "answer": 1,
+    "explanation": "Uma variável guarda um valor de cada vez. Quando x recebe 8, o 5 é trocado.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-variable-008",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "vidas = 3\nvidas = vidas + 2\nprint(vidas)",
+    "options": [
+      "2",
+      "5",
+      "3",
+      "32"
+    ],
+    "answer": 1,
+    "explanation": "A conta usa o valor atual: vidas = 3 + 2. O resultado, 5, fica guardado em vidas.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-variable-009",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "x = 5\ny = x\nprint(y)",
+    "options": [
+      "5",
+      "x",
+      "0",
+      "Erro"
+    ],
+    "answer": 0,
+    "explanation": "Na linha y = x, a variável y guarda o valor de x, que é 5.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-variable-010",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual linha guarda o valor 10 em energia?",
+    "code": null,
+    "options": [
+      "10 = energia",
+      "energia == 10",
+      "energia 10",
+      "energia = 10"
+    ],
+    "answer": 3,
+    "explanation": "O sinal = guarda. A variável fica à esquerda e o valor, à direita.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-variable-011",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Verdadeiro ou falso: x = 10 guarda o valor 10 na variável x.",
+    "code": null,
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": 0,
+    "explanation": "Um sinal de igual guarda. Dois sinais (==) perguntam se os valores são iguais.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-variable-012",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual alternativa é um valor booleano?",
+    "code": null,
+    "options": [
+      "\"True\"",
+      "1",
+      "True",
+      "\"Verdadeiro\""
+    ],
+    "answer": 2,
+    "explanation": "True, sem aspas, é do tipo bool. Com aspas, vira um texto.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-variable-013",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual é o tipo de resultado?",
+    "code": "resultado = 5 > 3",
+    "options": [
+      "int",
+      "bool",
+      "str",
+      "float"
+    ],
+    "answer": 1,
+    "explanation": "Toda comparação dá True ou False. Como 5 > 3 é verdadeiro, resultado guarda True (bool).",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-variable-014",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Como escrevemos o número decimal dois e meio em Python?",
+    "code": null,
+    "options": [
+      "2,5",
+      "\"2.5\"",
+      "2.5",
+      "25"
+    ],
+    "answer": 2,
+    "explanation": "Decimais usam ponto, não vírgula. Com aspas, seria texto.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-variable-015",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "x = 5\ny = x + 1\nx = 10\nprint(y)",
+    "options": [
+      "11",
+      "10",
+      "6",
+      "5"
+    ],
+    "answer": 2,
+    "explanation": "y guardou 5 + 1 = 6. Mudar x depois não muda y.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-variable-016",
+    "category": "VARIAVEIS_TIPOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Verdadeiro ou falso: em Python, o valor verdadeiro se escreve True, com T maiúsculo.",
+    "code": null,
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": 0,
+    "explanation": "Os valores booleanos são True e False, escritos com a primeira letra maiúscula.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-math-001",
+    "category": "OPERADORES_MATEMATICOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual valor será exibido?",
+    "code": "energia = 20\ngasto = 5\nprint(energia - gasto)",
+    "options": [
+      "25",
+      "15",
+      "5",
+      "100"
+    ],
+    "answer": 1,
+    "explanation": "20 - 5 = 15.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-math-002",
+    "category": "OPERADORES_MATEMATICOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual valor será exibido?",
+    "code": "print(3 * 4)",
+    "options": [
+      "7",
+      "34",
+      "12",
+      "1"
+    ],
+    "answer": 2,
+    "explanation": "O símbolo * faz a multiplicação. 3 * 4 = 12.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-math-003",
+    "category": "OPERADORES_MATEMATICOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual símbolo faz a multiplicação em Python?",
+    "code": null,
+    "options": [
+      "x",
+      "+",
+      "*",
+      "/"
+    ],
+    "answer": 2,
+    "explanation": "A multiplicação usa o asterisco (*).",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-math-004",
+    "category": "OPERADORES_MATEMATICOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Verdadeiro ou falso: print(5 / 2) mostra 2.5.",
+    "code": null,
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": 0,
+    "explanation": "A divisão com / mantém a parte decimal: 5 / 2 = 2.5.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-math-005",
+    "category": "OPERADORES_MATEMATICOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "print(10 / 4)",
+    "options": [
+      "2.5",
+      "2",
+      "4",
+      "40"
+    ],
+    "answer": 0,
+    "explanation": "10 / 4 = 2.5. A divisão mostra o resultado com decimais.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-math-006",
+    "category": "OPERADORES_MATEMATICOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual valor será exibido?",
+    "code": "x = 5\ny = 2\nprint(x + y)",
+    "options": [
+      "52",
+      "7",
+      "3",
+      "10"
+    ],
+    "answer": 1,
+    "explanation": "O Python usa os valores guardados: 5 + 2 = 7.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-math-007",
+    "category": "OPERADORES_MATEMATICOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "vidas = 3\nvidas = vidas - 1\nprint(vidas)",
+    "options": [
+      "3",
+      "1",
+      "4",
+      "2"
+    ],
+    "answer": 3,
+    "explanation": "vidas passa a valer 3 - 1 = 2 e esse valor fica guardado.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-math-008",
+    "category": "OPERADORES_MATEMATICOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual expressão resulta em 12?",
+    "code": null,
+    "options": [
+      "3 + 4",
+      "20 - 9",
+      "3 * 4",
+      "6 / 2"
+    ],
+    "answer": 2,
+    "explanation": "3 * 4 = 12. As outras dão 7, 11 e 3.0.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-math-009",
+    "category": "OPERADORES_MATEMATICOS",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "Qual será o valor exibido?",
+    "code": "a = 10\na = a - 3\na = a + 1\nprint(a)",
+    "options": [
+      "8",
+      "7",
+      "6",
+      "14"
+    ],
+    "answer": 0,
+    "explanation": "Passo a passo: a = 10, depois 7, depois 8.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-math-010",
+    "category": "OPERADORES_MATEMATICOS",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "nota1 = 7\nnota2 = 4\nsoma = nota1 + nota2\nprint(soma / 2)",
+    "options": [
+      "5",
+      "11",
+      "3.5",
+      "5.5"
+    ],
+    "answer": 3,
+    "explanation": "soma = 7 + 4 = 11. Depois, 11 / 2 = 5.5.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-math-011",
+    "category": "OPERADORES_MATEMATICOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual valor será exibido?",
+    "code": "pontos = 4\npontos = pontos * 2\nprint(pontos)",
+    "options": [
+      "6",
+      "4",
+      "8",
+      "42"
+    ],
+    "answer": 2,
+    "explanation": "pontos passa a ser 4 * 2 = 8.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-compare-001",
+    "category": "COMPARACAO",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "print(5 > 3)",
+    "options": [
+      "False",
+      "5",
+      "Erro",
+      "True"
+    ],
+    "answer": 3,
+    "explanation": "5 é maior que 3, então a comparação é True.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-compare-002",
+    "category": "COMPARACAO",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "print(4 != 4)",
+    "options": [
+      "True",
+      "False",
+      "4",
+      "Erro"
+    ],
+    "answer": 1,
+    "explanation": "O != significa diferente. 4 não é diferente de 4, então é False.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-compare-003",
+    "category": "COMPARACAO",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "x = 7\nprint(x > 5)",
+    "options": [
+      "False",
+      "7",
+      "True",
+      "Erro"
+    ],
+    "answer": 2,
+    "explanation": "x vale 7, e 7 > 5 é verdadeiro.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-compare-004",
+    "category": "COMPARACAO",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual operador pergunta se dois valores são iguais?",
+    "code": null,
+    "options": [
+      "=",
+      "!=",
+      ">=",
+      "=="
+    ],
+    "answer": 3,
+    "explanation": "Dois sinais de igual (==) comparam. Um sinal só (=) guarda um valor.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-compare-005",
+    "category": "COMPARACAO",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "print(5 >= 5)",
+    "options": [
+      "True",
+      "False",
+      "5",
+      "Erro"
+    ],
+    "answer": 0,
+    "explanation": "O >= quer dizer maior ou igual. 5 é igual a 5, então é True.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-compare-006",
+    "category": "COMPARACAO",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual expressão resulta em True?",
+    "code": null,
+    "options": [
+      "10 >= 10",
+      "10 > 10",
+      "10 < 10",
+      "10 != 10"
+    ],
+    "answer": 0,
+    "explanation": "10 >= 10 é verdadeiro porque 10 é igual a 10. As outras são falsas.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-compare-007",
+    "category": "COMPARACAO",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "idade = 15\nprint(idade >= 18)",
+    "options": [
+      "True",
+      "15",
+      "18",
+      "False"
+    ],
+    "answer": 3,
+    "explanation": "15 não é maior nem igual a 18, então o resultado é False.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-compare-008",
+    "category": "COMPARACAO",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Verdadeiro ou falso: o resultado de uma comparação é sempre True ou False.",
+    "code": null,
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": 0,
+    "explanation": "Uma comparação responde sim ou não, ou seja, True ou False.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-compare-009",
+    "category": "COMPARACAO",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "x = 10\nprint(x == 10)",
+    "options": [
+      "False",
+      "10",
+      "True",
+      "Erro"
+    ],
+    "answer": 2,
+    "explanation": "O == pergunta se x é igual a 10. Como x vale 10, a resposta é True.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-compare-010",
+    "category": "COMPARACAO",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual é a diferença entre x = 10 e x == 10?",
+    "code": null,
+    "options": [
+      "x = 10 guarda 10 em x; x == 10 pergunta se x é igual a 10",
+      "x = 10 pergunta se x é 10; x == 10 guarda 10 em x",
+      "Não há diferença",
+      "Os dois somam 10 a x"
+    ],
+    "answer": 0,
+    "explanation": "Um sinal guarda. Dois sinais perguntam.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-compare-011",
+    "category": "COMPARACAO",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "x = 4\ny = 9\nprint(x < y, x > y)",
+    "options": [
+      "True False",
+      "False True",
+      "True True",
+      "False False"
+    ],
+    "answer": 0,
+    "explanation": "4 < 9 é True e 4 > 9 é False. O print() mostra os dois resultados.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-compare-012",
+    "category": "COMPARACAO",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Para dizer que a idade é de no mínimo 18, qual condição usamos?",
+    "code": null,
+    "options": [
+      "idade > 18",
+      "idade >= 18",
+      "idade <= 18",
+      "idade == 18"
+    ],
+    "answer": 1,
+    "explanation": "\"No mínimo 18\" quer dizer 18 ou mais. Por isso usamos >=.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-compare-013",
+    "category": "COMPARACAO",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "a = 6\nb = a + 1\nprint(a < b)",
+    "options": [
+      "False",
+      "True",
+      "7",
+      "Erro"
+    ],
+    "answer": 1,
+    "explanation": "b vale 7. Como 6 < 7 é verdadeiro, o resultado é True.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-boolean-001",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "print(True and False)",
+    "options": [
+      "True",
+      "True and False",
+      "Erro",
+      "False"
+    ],
+    "answer": 3,
+    "explanation": "O and exige que os dois lados sejam True. Um deles é False, então o resultado é False.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-boolean-002",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "print(True or False)",
+    "options": [
+      "False",
+      "True or False",
+      "Erro",
+      "True"
+    ],
+    "answer": 3,
+    "explanation": "O or precisa de apenas um lado True. Aqui há um, então é True.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-boolean-003",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "print(not True)",
+    "options": [
+      "True",
+      "not True",
+      "False",
+      "Erro"
+    ],
+    "answer": 2,
+    "explanation": "O not inverte o valor: not True vira False.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-boolean-004",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que o and exige?",
+    "code": null,
+    "options": [
+      "Que apenas um lado seja True",
+      "Que os dois lados sejam False",
+      "Que os dois lados sejam True",
+      "Que o resultado seja um texto"
+    ],
+    "answer": 2,
+    "explanation": "O and só dá True quando as duas condições são verdadeiras.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-boolean-005",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que o or exige?",
+    "code": null,
+    "options": [
+      "Que pelo menos um dos lados seja True",
+      "Que os dois lados sejam True",
+      "Que os dois lados sejam False",
+      "Que nenhum lado seja True"
+    ],
+    "answer": 0,
+    "explanation": "O or dá True quando um dos dois lados (ou os dois) é verdadeiro.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-boolean-006",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Verdadeiro ou falso: not False resulta em True.",
+    "code": null,
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": 0,
+    "explanation": "O not inverte. O inverso de False é True.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-boolean-007",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "x = 7\nprint(x > 5 and x < 10)",
+    "options": [
+      "True",
+      "False",
+      "7",
+      "Erro"
+    ],
+    "answer": 0,
+    "explanation": "7 > 5 é True e 7 < 10 também é True. Os dois lados são verdadeiros, então o and dá True.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-boolean-008",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "x = 3\nprint(x > 5 or x < 4)",
+    "options": [
+      "False",
+      "3",
+      "Erro",
+      "True"
+    ],
+    "answer": 3,
+    "explanation": "x > 5 é False, mas x < 4 é True. Basta um lado verdadeiro para o or dar True.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-boolean-009",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "vidas = 0\nprint(vidas > 0 and vidas < 5)",
+    "options": [
+      "True",
+      "0",
+      "Erro",
+      "False"
+    ],
+    "answer": 3,
+    "explanation": "vidas > 0 é False. Com o and, um lado falso já deixa o resultado False.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-boolean-010",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "a = True\nb = False\nprint(a or b, a and b)",
+    "options": [
+      "True True",
+      "False False",
+      "True False",
+      "False True"
+    ],
+    "answer": 2,
+    "explanation": "a or b é True (um lado basta). a and b é False (b é False).",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-boolean-011",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual expressão resulta em True?",
+    "code": "energia = 8",
+    "options": [
+      "energia > 10 or energia < 5",
+      "energia == 8 and energia > 9",
+      "energia != 8 or energia < 5",
+      "energia > 5 and energia < 10"
+    ],
+    "answer": 3,
+    "explanation": "8 > 5 e 8 < 10 são verdadeiros. Nas outras alternativas o resultado final é False.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-boolean-012",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "ativo = True\nvidas = 0\nprint(ativo and vidas > 0)",
+    "options": [
+      "True",
+      "0",
+      "False",
+      "Erro"
+    ],
+    "answer": 2,
+    "explanation": "ativo é True, mas vidas > 0 é False. O and precisa dos dois verdadeiros.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-boolean-013",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "ligado = False\nprint(not ligado)",
+    "options": [
+      "True",
+      "False",
+      "ligado",
+      "Erro"
+    ],
+    "answer": 0,
+    "explanation": "ligado vale False. O not inverte para True.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-boolean-014",
+    "category": "OPERADORES_LOGICOS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Verdadeiro ou falso: False or False resulta em True.",
+    "code": null,
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": 1,
+    "explanation": "O or só dá True quando pelo menos um lado é True. Aqui os dois são False.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-condition-001",
+    "category": "CONDICIONAIS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "energia = 8\nif energia > 5:\n    print(\"OK\")",
+    "options": [
+      "Nada será exibido",
+      "energia",
+      "Erro",
+      "OK"
+    ],
+    "answer": 3,
+    "explanation": "8 > 5 é verdadeiro, então o bloco do if é executado.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-condition-002",
+    "category": "CONDICIONAIS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "pontos = 3\nif pontos > 5:\n    print(\"Venceu!\")",
+    "options": [
+      "Venceu!",
+      "pontos",
+      "Nada será exibido",
+      "Erro"
+    ],
+    "answer": 2,
+    "explanation": "3 > 5 é falso e não há else. Então o print() não é executado.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-condition-003",
+    "category": "CONDICIONAIS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "idade = 17\nif idade >= 18:\n    print(\"Pode entrar\")\nelse:\n    print(\"Não pode entrar\")",
+    "options": [
+      "Pode entrar",
+      "Pode entrar e Não pode entrar",
+      "Nada será exibido",
+      "Não pode entrar"
+    ],
+    "answer": 3,
+    "explanation": "17 >= 18 é falso. O if é pulado e o else é executado.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-condition-004",
+    "category": "CONDICIONAIS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "energia = 3\ndificuldade = 5\nif energia >= dificuldade:\n    print(\"Acesso liberado!\")\nelse:\n    print(\"Energia insuficiente!\")",
+    "options": [
+      "Acesso liberado!",
+      "Acesso liberado! e Energia insuficiente!",
+      "Nada será exibido",
+      "Energia insuficiente!"
+    ],
+    "answer": 3,
+    "explanation": "3 >= 5 é falso, então o else é executado.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-condition-005",
+    "category": "CONDICIONAIS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "pontos = 12\nif pontos >= 20:\n    print(\"Ouro\")\nelif pontos >= 10:\n    print(\"Prata\")\nelse:\n    print(\"Continue!\")",
+    "options": [
+      "Ouro",
+      "Prata",
+      "Continue!",
+      "Ouro e Prata"
+    ],
+    "answer": 1,
+    "explanation": "12 >= 20 é falso. No elif, 12 >= 10 é verdadeiro e o programa exibe Prata.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-condition-006",
+    "category": "CONDICIONAIS",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "nota = 9\nif nota >= 5:\n    print(\"Passou\")\nelif nota >= 8:\n    print(\"Ótimo\")\nelse:\n    print(\"Reprovou\")",
+    "options": [
+      "Ótimo",
+      "Passou",
+      "Reprovou",
+      "Passou e Ótimo"
+    ],
+    "answer": 1,
+    "explanation": "O Python executa só o primeiro bloco verdadeiro. Como 9 >= 5 já é verdadeiro, ele exibe Passou e para.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-condition-007",
+    "category": "CONDICIONAIS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "x = 12\nif x > 5 and x < 10:\n    print(\"Zona verde\")\nelse:\n    print(\"Fora\")",
+    "options": [
+      "Zona verde",
+      "Zona verde e Fora",
+      "Fora",
+      "Nada será exibido"
+    ],
+    "answer": 2,
+    "explanation": "x > 5 é True, mas x < 10 é False. O and precisa dos dois, então vai para o else.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-condition-008",
+    "category": "CONDICIONAIS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "vidas = 0\nchave = True\nif vidas > 0 or chave:\n    print(\"Continua\")\nelse:\n    print(\"Fim\")",
+    "options": [
+      "Fim",
+      "Continua e Fim",
+      "Nada será exibido",
+      "Continua"
+    ],
+    "answer": 3,
+    "explanation": "vidas > 0 é False, mas chave é True. Para o or, um lado verdadeiro basta.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-condition-009",
+    "category": "CONDICIONAIS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Quando o else é executado?",
+    "code": null,
+    "options": [
+      "Quando a condição do if é falsa",
+      "Sempre",
+      "Quando a condição do if é verdadeira",
+      "Nunca"
+    ],
+    "answer": 0,
+    "explanation": "O else é o caminho para quando a condição do if não é verdadeira.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-condition-010",
+    "category": "CONDICIONAIS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Para que serve o elif?",
+    "code": null,
+    "options": [
+      "Guardar um valor em uma variável",
+      "Testar outra condição quando a anterior é falsa",
+      "Mostrar um texto na tela",
+      "Terminar o programa"
+    ],
+    "answer": 1,
+    "explanation": "O elif significa \"senão, se\": ele testa uma nova condição quando a anterior não deu certo.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-condition-011",
+    "category": "CONDICIONAIS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "x = 3\nif x > 5:\n    print(\"A\")\nprint(\"B\")",
+    "options": [
+      "A e B",
+      "Somente A",
+      "Nada será exibido",
+      "Somente B"
+    ],
+    "answer": 3,
+    "explanation": "O print(\"A\") está recuado, então pertence ao if e não roda. O print(\"B\") não tem recuo e sempre roda.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-condition-012",
+    "category": "CONDICIONAIS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Verdadeiro ou falso: a linha do if precisa terminar com : (dois pontos).",
+    "code": null,
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": 0,
+    "explanation": "Sem os dois pontos, o Python mostra erro de sintaxe.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-condition-013",
+    "category": "CONDICIONAIS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "No Python, o que organiza o bloco do if?",
+    "code": null,
+    "options": [
+      "As chaves { }",
+      "Os dois pontos e o recuo",
+      "O ponto e vírgula ;",
+      "Os parênteses ( )"
+    ],
+    "answer": 1,
+    "explanation": "Python não usa chaves nem ;. O : e o recuo mostram o que pertence ao if.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-condition-014",
+    "category": "CONDICIONAIS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "energia = 2\nif energia >= 8:\n    print(\"Alta\")\nelif energia >= 4:\n    print(\"Média\")\nelse:\n    print(\"Baixa\")",
+    "options": [
+      "Baixa",
+      "Alta",
+      "Média",
+      "Nada será exibido"
+    ],
+    "answer": 0,
+    "explanation": "2 >= 8 e 2 >= 4 são falsos. Nenhuma condição valeu, então o else é executado.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-condition-015",
+    "category": "CONDICIONAIS",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "senha = \"1234\"\nif senha == \"1234\":\n    print(\"Acesso liberado\")\nelse:\n    print(\"Acesso negado\")",
+    "options": [
+      "Acesso liberado",
+      "Acesso negado",
+      "Nada será exibido",
+      "senha"
+    ],
+    "answer": 0,
+    "explanation": "O texto de senha é igual a \"1234\", então a comparação é True.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-condition-016",
+    "category": "CONDICIONAIS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual condição faz o programa exibir Pode entrar para idade = 16?",
+    "code": "idade = 16",
+    "options": [
+      "idade >= 16",
+      "idade >= 18",
+      "idade > 16",
+      "idade == 18"
+    ],
+    "answer": 0,
+    "explanation": "Com idade 16, apenas 16 >= 16 é verdadeiro. As outras são falsas.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-condition-017",
+    "category": "CONDICIONAIS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "nivel = 2\nif nivel == 1:\n    print(\"Fácil\")\nelif nivel == 2:\n    print(\"Médio\")\nelse:\n    print(\"Difícil\")",
+    "options": [
+      "Fácil",
+      "Difícil",
+      "Nada será exibido",
+      "Médio"
+    ],
+    "answer": 3,
+    "explanation": "nivel == 1 é falso, mas nivel == 2 é verdadeiro. O programa exibe Médio.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-condition-018",
+    "category": "CONDICIONAIS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "energia = 6\ndificuldade = 6\nif energia >= dificuldade:\n    print(\"Acesso liberado!\")\nelse:\n    print(\"Energia insuficiente!\")",
+    "options": [
+      "Energia insuficiente!",
+      "Acesso liberado! e Energia insuficiente!",
+      "Nada será exibido",
+      "Acesso liberado!"
+    ],
+    "answer": 3,
+    "explanation": "O >= inclui a igualdade. 6 >= 6 é verdadeiro.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-condition-019",
+    "category": "CONDICIONAIS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "nome = \"Neo\"\nif nome == \"Ana\":\n    print(\"Oi, Ana\")\nelif nome == \"Neo\":\n    print(\"Oi, Neo\")\nelse:\n    print(\"Quem é você?\")",
+    "options": [
+      "Oi, Ana",
+      "Quem é você?",
+      "Oi, Neo",
+      "Oi, Ana e Oi, Neo"
+    ],
+    "answer": 2,
+    "explanation": "A primeira comparação é falsa. No elif, nome == \"Neo\" é verdadeiro.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-condition-020",
+    "category": "CONDICIONAIS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "nota = 7.5\nif nota >= 7:\n    print(\"Aprovado\")\nelse:\n    print(\"Recuperação\")",
+    "options": [
+      "Recuperação",
+      "Aprovado",
+      "Aprovado e Recuperação",
+      "Nada será exibido"
+    ],
+    "answer": 1,
+    "explanation": "O if também compara números decimais. 7.5 >= 7 é verdadeiro.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-condition-021",
+    "category": "CONDICIONAIS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "ganhou = False\nif ganhou == True:\n    print(\"Parabéns\")\nelse:\n    print(\"Tente de novo\")",
+    "options": [
+      "Parabéns",
+      "Parabéns e Tente de novo",
+      "Nada será exibido",
+      "Tente de novo"
+    ],
+    "answer": 3,
+    "explanation": "ganhou vale False. A comparação False == True é falsa, então o else é executado.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-condition-022",
+    "category": "CONDICIONAIS",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual código está escrito corretamente?",
+    "code": null,
+    "options": [
+      "if x > 5:\n    print(\"OK\")",
+      "if x > 5\n    print(\"OK\")",
+      "if x > 5:\nprint(\"OK\")",
+      "if x = 5:\n    print(\"OK\")"
+    ],
+    "answer": 0,
+    "explanation": "O if precisa dos dois pontos e do recuo, e a comparação usa > (o = serve para guardar).",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-output-001",
+    "category": "PREVISAO_SAIDA",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "jogador = \"Ana\"\npontos = 10\nprint(jogador, pontos)",
+    "options": [
+      "jogador pontos",
+      "Ana10",
+      "Ana 10",
+      "Erro"
+    ],
+    "answer": 2,
+    "explanation": "O print() mostra os valores guardados nas variáveis, separados por um espaço.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-output-002",
+    "category": "PREVISAO_SAIDA",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "x = 1\ny = 2\nx = y\nprint(x, y)",
+    "options": [
+      "2 2",
+      "1 2",
+      "2 1",
+      "1 1"
+    ],
+    "answer": 0,
+    "explanation": "Na linha x = y, x passa a valer 2. No fim, as duas variáveis valem 2.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-output-003",
+    "category": "PREVISAO_SAIDA",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "pontos = 6\nbonus = 4\ntotal = pontos + bonus\nprint(total)",
+    "options": [
+      "10",
+      "64",
+      "2",
+      "total"
+    ],
+    "answer": 0,
+    "explanation": "total guarda 6 + 4 = 10, e o print() mostra esse valor.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-output-004",
+    "category": "PREVISAO_SAIDA",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "energia = 10\ndano = 4\nenergia = energia - dano\nprint(energia)",
+    "options": [
+      "14",
+      "4",
+      "6",
+      "10"
+    ],
+    "answer": 2,
+    "explanation": "A nova energia é 10 - 4 = 6.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-output-005",
+    "category": "PREVISAO_SAIDA",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "x = 7\nprint(x > 5)\nprint(x > 10)",
+    "options": [
+      "False e True",
+      "True e False",
+      "True e True",
+      "False e False"
+    ],
+    "answer": 1,
+    "explanation": "7 > 5 é True e 7 > 10 é False. Cada print() mostra um resultado em uma linha.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-output-006",
+    "category": "PREVISAO_SAIDA",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "pontos = 8\npontos = pontos + 2\nif pontos >= 10:\n    print(\"Passou\")\nelse:\n    print(\"Tente de novo\")",
+    "options": [
+      "Tente de novo",
+      "8",
+      "Passou",
+      "Passou e Tente de novo"
+    ],
+    "answer": 2,
+    "explanation": "Antes do if, pontos passa a valer 10. Como 10 >= 10 é verdadeiro, o programa exibe Passou.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-output-007",
+    "category": "PREVISAO_SAIDA",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "nivel = 2\nif nivel > 1:\n    print(\"Acesso\")\n    print(\"Nível\", nivel)",
+    "options": [
+      "Somente Acesso",
+      "Acesso e Nível nivel",
+      "Nada será exibido",
+      "Acesso e Nível 2"
+    ],
+    "answer": 3,
+    "explanation": "2 > 1 é verdadeiro. Os dois print() estão recuados e rodam: Acesso e depois Nível 2.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-output-008",
+    "category": "PREVISAO_SAIDA",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "x = 3\nif x > 5:\n    print(\"A\")\nelif x > 2:\n    print(\"B\")\nelse:\n    print(\"C\")",
+    "options": [
+      "A",
+      "C",
+      "B",
+      "B e C"
+    ],
+    "answer": 2,
+    "explanation": "x > 5 é falso. No elif, 3 > 2 é verdadeiro. O programa exibe B.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-output-009",
+    "category": "PREVISAO_SAIDA",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "x = 4\ny = x + 3\nif y > 6 and x < 5:\n    print(\"Verde\")\nelse:\n    print(\"Fora\")",
+    "options": [
+      "Verde",
+      "Fora",
+      "Verde e Fora",
+      "Nada será exibido"
+    ],
+    "answer": 0,
+    "explanation": "y vale 4 + 3 = 7. Então y > 6 é True e x < 5 também. O and dá True.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-output-010",
+    "category": "PREVISAO_SAIDA",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "vidas = 3\nvidas = vidas - 1\nvidas = vidas - 1\nif vidas > 0:\n    print(\"Vivo\")\nelse:\n    print(\"Fim\")",
+    "options": [
+      "Fim",
+      "Vivo",
+      "1",
+      "Vivo e Fim"
+    ],
+    "answer": 1,
+    "explanation": "vidas vai de 3 para 2 e depois para 1. Como 1 > 0, o programa exibe Vivo.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-output-011",
+    "category": "PREVISAO_SAIDA",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "ganhou = True\nvidas = 0\nprint(ganhou, vidas > 0)",
+    "options": [
+      "True False",
+      "True True",
+      "False False",
+      "True 0"
+    ],
+    "answer": 0,
+    "explanation": "ganhou vale True. A comparação vidas > 0 é falsa (0 não é maior que 0).",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-output-012",
+    "category": "PREVISAO_SAIDA",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "a = 2\nb = 5\nif a > b:\n    print(\"ALFA\")\nelif a < b:\n    print(\"BETA\")\nelse:\n    print(\"GAMA\")",
+    "options": [
+      "BETA",
+      "ALFA",
+      "GAMA",
+      "Nada será exibido"
+    ],
+    "answer": 0,
+    "explanation": "a > b é falso. No elif, 2 < 5 é verdadeiro. O programa exibe BETA.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-debug-001",
+    "category": "DEBUG",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Onde está o erro de sintaxe?",
+    "code": "energia = 8\nif energia > 3\n    print(\"Venceu!\")",
+    "options": [
+      "energia não foi criada",
+      "Falta aspas no print",
+      "Falta o : no fim do if",
+      "O sinal > não existe"
+    ],
+    "answer": 2,
+    "explanation": "Todo if termina com dois pontos. Sem eles, o Python mostra SyntaxError.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-debug-002",
+    "category": "DEBUG",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual é o erro?",
+    "code": "nome = \"Ana\"\nprint(nome",
+    "options": [
+      "Falta aspas em Ana",
+      "Falta fechar o parêntese",
+      "O print precisa de :",
+      "nome não pode ser usado"
+    ],
+    "answer": 1,
+    "explanation": "Todo parêntese aberto precisa ser fechado. Faltou o ) no print().",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-debug-003",
+    "category": "DEBUG",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual é o erro?",
+    "code": "print(\"Olá)",
+    "options": [
+      "Falta o :",
+      "Falta fechar as aspas",
+      "O print está sem parênteses",
+      "Olá não é texto"
+    ],
+    "answer": 1,
+    "explanation": "O texto abriu com aspas e não fechou. O Python não sabe onde ele termina.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-debug-004",
+    "category": "DEBUG",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual é o erro?",
+    "code": "x = 8\nif x > 5:\nprint(\"OK\")",
+    "options": [
+      "Falta o : depois do if",
+      "x não foi criada",
+      "O print dentro do if precisa de recuo",
+      "O sinal > não existe"
+    ],
+    "answer": 2,
+    "explanation": "O que pertence ao if precisa ficar recuado. Sem recuo, aparece IndentationError.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-debug-005",
+    "category": "DEBUG",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Regra: quem tem 18 anos ou mais pode entrar. Qual alteração corrige o código?",
+    "code": "idade = 18\nif idade > 18:\n    print(\"Pode entrar\")\nelse:\n    print(\"Não pode entrar\")",
+    "options": [
+      "Trocar > por <",
+      "Trocar > por >=",
+      "Trocar if por else",
+      "Apagar a linha do print"
+    ],
+    "answer": 1,
+    "explanation": "Com idade 18, o código mostra Não pode entrar. O > deixa o 18 de fora. O >= inclui o 18.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-debug-006",
+    "category": "DEBUG",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O programa roda, mas mostra Não pode entrar para 20 anos. Que tipo de erro é esse?",
+    "code": "idade = 20\nif idade < 18:\n    print(\"Pode entrar\")\nelse:\n    print(\"Não pode entrar\")",
+    "options": [
+      "Erro de sintaxe: falta o :",
+      "Erro lógico",
+      "Erro de sintaxe: falta o recuo",
+      "Não é um erro"
+    ],
+    "answer": 1,
+    "explanation": "O código roda sem avisar, mas não segue a regra. Isso é um erro lógico.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-debug-007",
+    "category": "DEBUG",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual é a diferença entre erro de sintaxe e erro lógico?",
+    "code": null,
+    "options": [
+      "Sintaxe: o Python avisa e não roda. Lógico: roda, mas o resultado está errado",
+      "Sintaxe: roda com resultado errado. Lógico: o Python avisa",
+      "São a mesma coisa",
+      "Sintaxe só acontece com números"
+    ],
+    "answer": 0,
+    "explanation": "Erro de sintaxe impede o código de rodar. Erro lógico passa sem aviso, mas dá o resultado errado.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-debug-008",
+    "category": "DEBUG",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O objetivo é comparar x com 5. Qual linha corrige o if?",
+    "code": "x = 5\nif x = 5:\n    print(\"Igual\")",
+    "options": [
+      "if x = 5",
+      "if x == 5",
+      "if x => 5:",
+      "if x == 5:"
+    ],
+    "answer": 3,
+    "explanation": "Para comparar usamos ==. O = serve para guardar. E o if precisa terminar com :.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-debug-009",
+    "category": "DEBUG",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "Com 9 pontos deveria aparecer Ouro, mas aparece Prata. Qual é o problema?",
+    "code": "pontos = 9\nif pontos >= 5:\n    print(\"Prata\")\nelif pontos >= 8:\n    print(\"Ouro\")",
+    "options": [
+      "O elif precisa de else",
+      "Como 9 >= 5 é verdadeiro e vem primeiro, o elif nunca é testado",
+      "O print está sem aspas",
+      "9 não é maior que 8"
+    ],
+    "answer": 1,
+    "explanation": "O Python executa só o primeiro bloco verdadeiro. A condição mais exigente deve vir antes.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-debug-010",
+    "category": "DEBUG",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual destes códigos tem erro de sintaxe?",
+    "code": null,
+    "options": [
+      "if x > 5:\n    print(\"OK\")",
+      "if x > 5\n    print(\"OK\")",
+      "print(\"OK\")",
+      "x = 5\nprint(x)"
+    ],
+    "answer": 1,
+    "explanation": "No primeiro código falta o : no fim do if. Os outros estão corretos.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-debug-011",
+    "category": "DEBUG",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Verdadeiro ou falso: o código abaixo tem erro de sintaxe.",
+    "code": "x = 5\nprint(x)",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": 1,
+    "explanation": "O código está correto e mostra 5.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-debug-012",
+    "category": "DEBUG",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Verdadeiro ou falso: um erro lógico impede o programa de rodar.",
+    "code": null,
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": 1,
+    "explanation": "O programa roda normalmente, mas dá um resultado diferente do esperado.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-debug-013",
+    "category": "DEBUG",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Verdadeiro ou falso: em if x = 5:, o sinal = é o correto para comparar.",
+    "code": null,
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": 1,
+    "explanation": "Para comparar usamos ==. O = é para guardar um valor.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-debug-014",
+    "category": "DEBUG",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Qual é o erro?",
+    "code": "print(Olá)",
+    "options": [
+      "O texto Olá precisa estar entre aspas",
+      "Falta o :",
+      "Falta fechar o parêntese",
+      "print precisa de recuo"
+    ],
+    "answer": 0,
+    "explanation": "Texto sempre vai entre aspas. Sem aspas, o Python procura uma variável chamada Olá.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-logic-001",
+    "category": "LOGICA",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O portão abre se tem chave e NÃO tem alarme. Qual condição representa isso?",
+    "code": null,
+    "options": [
+      "chave and alarme",
+      "chave or alarme",
+      "not chave",
+      "chave and not alarme"
+    ],
+    "answer": 3,
+    "explanation": "Precisamos de chave True e alarme False. O not inverte o alarme, então escrevemos chave and not alarme.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-logic-002",
+    "category": "LOGICA",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "Qual condição representa uma idade entre 10 e 15, incluindo 10 e 15?",
+    "code": null,
+    "options": [
+      "idade >= 10 or idade <= 15",
+      "idade >= 10 and idade <= 15",
+      "idade > 10 and idade < 15",
+      "idade <= 10 and idade >= 15"
+    ],
+    "answer": 1,
+    "explanation": "É preciso ser 10 ou mais e também 15 ou menos. Usamos and com >= e <=.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-logic-003",
+    "category": "LOGICA",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "Quantas linhas mostram True?",
+    "code": "x = 5\nprint(x > 3)\nprint(x < 3)\nprint(x == 5)\nprint(x != 5)",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 1,
+    "explanation": "x > 3 e x == 5 são True. x < 3 e x != 5 são False. São 2 linhas com True.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-logic-004",
+    "category": "LOGICA",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "Qual valor de x faz o programa exibir ZONA?",
+    "code": "x = 0\nif x > 5 and x < 8:\n    print(\"ZONA\")",
+    "options": [
+      "4",
+      "8",
+      "6",
+      "10"
+    ],
+    "answer": 2,
+    "explanation": "O x precisa ser maior que 5 e menor que 8. Só o 6 cumpre as duas condições.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-logic-005",
+    "category": "LOGICA",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "O alarme toca se a porta está aberta OU a janela está aberta. Qual expressão representa isso?",
+    "code": null,
+    "options": [
+      "porta and janela",
+      "not porta",
+      "porta == janela",
+      "porta or janela"
+    ],
+    "answer": 3,
+    "explanation": "Basta uma das duas estar aberta, então usamos or.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-mixed-001",
+    "category": "DESAFIO_MISTO",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "energia = 9\nconsumo = 4\nenergia = energia - consumo\nif energia >= 5:\n    print(\"Voar\")\nelse:\n    print(\"Recarregar\")",
+    "options": [
+      "Voar",
+      "Recarregar",
+      "5",
+      "Nada será exibido"
+    ],
+    "answer": 0,
+    "explanation": "energia vira 9 - 4 = 5. Como 5 >= 5 é verdadeiro, o programa exibe Voar.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-mixed-002",
+    "category": "DESAFIO_MISTO",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "pontos = 6\nbonus = 3\ntotal = pontos + bonus\nif total > 10:\n    print(\"Nível 2\")\nelif total > 5:\n    print(\"Nível 1\")",
+    "options": [
+      "Nível 2",
+      "Nível 1 e Nível 2",
+      "Nada será exibido",
+      "Nível 1"
+    ],
+    "answer": 3,
+    "explanation": "total = 6 + 3 = 9. Então 9 > 10 é falso e 9 > 5 é verdadeiro.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-mixed-003",
+    "category": "DESAFIO_MISTO",
+    "difficulty": "medium",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "idade = 15\nautorizado = True\nif idade >= 16 and autorizado:\n    print(\"Entrada permitida\")\nelse:\n    print(\"Entrada bloqueada\")",
+    "options": [
+      "Entrada permitida",
+      "Entrada permitida e Entrada bloqueada",
+      "Entrada bloqueada",
+      "Nada será exibido"
+    ],
+    "answer": 2,
+    "explanation": "autorizado é True, mas 15 >= 16 é falso. O and precisa dos dois, então vai para o else.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-mixed-004",
+    "category": "DESAFIO_MISTO",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "energia = 70\nnivel = 4\nif energia < 30:\n    print(\"PERIGO\")\nelif energia >= 60 and nivel >= 3:\n    print(\"ACESSO LIBERADO\")\nelse:\n    print(\"ACESSO NEGADO\")",
+    "options": [
+      "PERIGO",
+      "ACESSO NEGADO",
+      "Nada será exibido",
+      "ACESSO LIBERADO"
+    ],
+    "answer": 3,
+    "explanation": "70 < 30 é falso. No elif, 70 >= 60 e 4 >= 3 são verdadeiros, e o and dá True.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-mixed-005",
+    "category": "DESAFIO_MISTO",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "preco = 20\ndinheiro = 15\nif dinheiro >= preco:\n    print(\"Comprou\")\nelse:\n    print(\"Faltam\", preco - dinheiro)",
+    "options": [
+      "Faltam 5",
+      "Comprou",
+      "Faltam 35",
+      "Faltam 15"
+    ],
+    "answer": 0,
+    "explanation": "15 >= 20 é falso, então o else é executado. A conta preco - dinheiro dá 20 - 15 = 5.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-mixed-006",
+    "category": "DESAFIO_MISTO",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual código exibe Venceu! para quem tem 10 pontos ou mais?",
+    "code": null,
+    "options": [
+      "if pontos >= 10:\n    print(\"Venceu!\")",
+      "if pontos > 10:\n    print(\"Venceu!\")",
+      "if pontos <= 10:\n    print(\"Venceu!\")",
+      "if pontos == 5:\n    print(\"Venceu!\")"
+    ],
+    "answer": 0,
+    "explanation": "\"10 ou mais\" inclui o 10 e os maiores. Isso é pontos >= 10.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-mixed-007",
+    "category": "DESAFIO_MISTO",
+    "difficulty": "easy",
+    "format": "multiple-choice",
+    "question": "Qual versão está na ordem certa para exibir 8?",
+    "code": null,
+    "options": [
+      "a = 5\nb = 3\nprint(a + b)",
+      "print(a + b)\na = 5\nb = 3",
+      "a = 5\nprint(a + b)\nb = 3",
+      "b = 3\nprint(a + b)\na = 5"
+    ],
+    "answer": 0,
+    "explanation": "O Python lê de cima para baixo. As variáveis precisam ser criadas antes de serem usadas.",
+    "timeLimit": null
+  },
+  {
+    "id": "pf-mixed-008",
+    "category": "DESAFIO_MISTO",
+    "difficulty": "hard",
+    "format": "multiple-choice",
+    "question": "O que será exibido?",
+    "code": "vidas = 2\nenergia = 0\nif vidas > 0 and energia > 0:\n    print(\"Seguir\")\nelif vidas > 0:\n    print(\"Descansar\")\nelse:\n    print(\"Fim\")",
+    "options": [
+      "Seguir",
+      "Descansar",
+      "Fim",
+      "Nada será exibido"
+    ],
+    "answer": 1,
+    "explanation": "No if, energia > 0 é falso (0 não é maior que 0), então o and falha. No elif, vidas > 0 é verdadeiro.",
+    "timeLimit": null
+  }
+]

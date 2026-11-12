@@ -1,0 +1,72 @@
+{
+  "name": "code-race-neon-city-desktop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Desktop distribution wrapper for the CODE RACE Neon City prototype",
+  "main": "electron-main.cjs",
+  "scripts": {
+    "dev": "electron .",
+    "test:desktop": "electron . --smoke-test",
+    "build:mac": "electron-builder --mac --arm64",
+    "build:win": "electron-builder --win --x64",
+    "build:win:installer": "electron-builder --win nsis --x64",
+    "build:win:portable": "electron-builder --win portable --x64"
+  },
+  "dependencies": {
+    "three": "0.161.0"
+  },
+  "devDependencies": {
+    "electron": "^41.0.0",
+    "electron-builder": "^26.0.0"
+  },
+  "build": {
+    "appId": "com.coderace.neoncity",
+    "productName": "CODE RACE — NEON CITY",
+    "asar": true,
+    "directories": {
+      "output": "dist/neon-city"
+    },
+    "extraResources": [
+      {
+        "from": "node_modules/three/examples/jsm",
+        "to": "three-addons"
+      }
+    ],
+    "files": [
+      "electron-main.cjs",
+      "prototype/neon-city/**/*",
+      "node_modules/three/**/*",
+      "!prototype/neon-city/**/*.DS_Store",
+      "!prototype/neon-city/**/*.test.js",
+      "!prototype/neon-city/**/*audit.md",
+      "!prototype/neon-city/reference/**/*"
+    ],
+    "mac": {
+      "category": "public.app-category.games",
+      "identity": null,
+      "target": [
+        "dir",
+        "dmg"
+      ]
+    },
+    "dmg": {
+      "title": "CODE RACE — NEON CITY"
+    },
+    "win": {
+      "target": [
+        "portable",
+        "nsis"
+      ]
+    },
+    "portable": {
+      "artifactName": "CODE-RACE-NEON-CITY-${version}-win-${arch}-portable.${ext}"
+    },
+    "nsis": {
+      "artifactName": "CODE-RACE-NEON-CITY-${version}-win-${arch}-setup.${ext}",
+      "oneClick": true,
+      "perMachine": false,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
+  }
+}
