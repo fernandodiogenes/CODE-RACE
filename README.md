@@ -1,36 +1,61 @@
 # CODE RACE — The Programmers' Challenge
 
-**CODE RACE** is an educational digital board game set in **NEON CITY**, a cyberpunk-inspired 3D environment. Developed to teach and reinforce fundamental Python programming concepts through challenges, strategy, and team interaction.
+A team-based educational programming game set in **NEON CITY**, a cyberpunk-inspired 3D world where players learn Python through challenges, strategy, and collaboration.
 
-The project combines an immersive visual experience with game mechanics, turning programming education into a collaborative competition.
+![CODE RACE — NEON CITY Gameplay](Screenshot_NeonCity.png)
 
-## About the Game
+## About the Project
 
-In NEON CITY, teams travel through different districts, facing programming challenges along the way. The objective is to advance across the board, overcome obstacles, and reach the **Central Nexus**, where the final challenge awaits.
+CODE RACE is a digital board game designed to make introductory programming education more engaging and interactive.
 
-Throughout the match, players must correctly answer Python questions, use strategic abilities, and adapt to events that can change the course of the game.
+Created for collaborative learning activities, the game brings teams of players into NEON CITY, a fictional cyberpunk environment where they compete to overcome programming challenges and reach the Central Nexus.
 
-### Key Features
+The project combines a 3D game environment, turn-based board mechanics, Python questions, strategic abilities, and dynamic events in a desktop application.
 
-- 3D digital board game environment.
-- Cyberpunk-inspired city and visual design.
-- Python programming questions organized by difficulty.
-- Multiplayer matches with multiple teams.
-- Turn-based gameplay, dice rolls, and board progression.
-- Special abilities and dynamic in-game events.
-- Dedicated teacher control interface.
-- Local game progress saving.
+## Gameplay
 
-## Technologies
+Players form teams and compete to progress across a board of 60 spaces. During their turns, teams roll a die, move across the city, and face programming challenges and special game events.
 
-| Technology | Purpose |
+The objective is to reach **Central Nexus** and successfully complete the final challenge.
+
+The game is designed for educational activities with students approximately 11–17 years old.
+
+## Key Features
+
+- **3D Environment:** An immersive cyberpunk-inspired city rendered with Three.js.
+- **Team-Based Gameplay:** Matches support multiple teams competing in the same session.
+- **Python Challenges:** Programming questions organized by difficulty.
+- **Turn-Based Mechanics:** Dice rolls, board movement, and challenge resolution.
+- **Strategic Abilities:** Special abilities that allow teams to influence the match.
+- **Dynamic Events:** In-game events that can change the course of a match.
+- **Teacher Control Interface:** Tools for managing teams, game events, corrections, and match flow.
+- **Local Save System:** Match progress can be saved and restored on the device.
+
+## Technology Stack
+
+| Technology | Role in the Project |
 |---|---|
-| HTML5 | Interface structure |
-| CSS3 | Styling and animations |
-| JavaScript | Game logic and mechanics |
-| Three.js | 3D environment rendering |
-| Electron | Desktop application |
-| Node.js / npm | Runtime environment and dependency management |
+| HTML5 | Application structure |
+| CSS3 | Interface styling, visual effects, and animations |
+| JavaScript | Gameplay logic, state management, and interactions |
+| Three.js | 3D environment and scene rendering |
+| Electron | Desktop application runtime |
+| Node.js | JavaScript runtime and development environment |
+| npm | Dependency management and project scripts |
+
+## Architecture and Technical Overview
+
+CODE RACE uses a local-first desktop architecture.
+
+- **Electron** provides the desktop application shell.
+- **HTML, CSS, and JavaScript** implement the interface and game logic.
+- **Three.js** handles the 3D city environment.
+- **JSON files** store the programming question banks and other structured data.
+- **localStorage** is used for local game-state persistence.
+
+The application does not require a remote backend, external database, or remote API for its gameplay.
+
+Game assets and application resources are bundled locally.
 
 ## Getting Started
 
@@ -42,7 +67,7 @@ Throughout the match, players must correctly answer Python questions, use strate
 ### 1. Clone the repository
 
 ```bash
-git clone <REPOSITORY_URL>
+git clone https://github.com/fernandodiogenes/CODE-RACE.git
 ```
 
 ### 2. Navigate to the project directory
@@ -57,7 +82,7 @@ cd CODE-RACE
 npm ci
 ```
 
-### 4. Run the game
+### 4. Run the desktop application
 
 ```bash
 npm run dev
@@ -65,39 +90,47 @@ npm run dev
 
 ## Testing
 
-The project includes an automated desktop smoke test to verify application loading and key gameplay flows.
+The project includes an automated desktop smoke test that checks important application and gameplay flows.
 
-Run it with:
+Run the test with:
 
 ```bash
 npm run test:desktop
 ```
 
-## Building
+The smoke test checks application startup, local resource loading, question bank availability, the introduction, team registration, 3D gameplay initialization, and local save functionality.
 
-The project uses Electron Builder to generate desktop distributions.
+## Building the Application
 
-**macOS (Apple Silicon):**
+The project uses **Electron Builder** to generate desktop distributions.
+
+### macOS — Apple Silicon
 
 ```bash
 npm run build:mac
 ```
 
-**Windows (installer):**
+### Windows — Installer
 
 ```bash
 npm run build:win:installer
 ```
 
-**Windows (portable version):**
+### Windows — Portable Version
 
 ```bash
 npm run build:win:portable
 ```
 
-Build artifacts are generated in the `dist/` directory.
+Build artifacts are generated in:
 
-> Note: Windows builds should be generated in a Windows environment. The macOS build is configured for ARM64 architecture.
+```text
+dist/neon-city/
+```
+
+**Platform note:** The macOS build is configured for ARM64. Windows distributions should be generated in a Windows environment.
+
+For additional Windows build instructions, see [BUILD-WINDOWS.md](prototype/neon-city/BUILD-WINDOWS.md).
 
 ## Project Structure
 
@@ -106,35 +139,30 @@ CODE-RACE/
 │
 ├── prototype/
 │   └── neon-city/
-│       ├── assets/
-│       ├── src/
-│       ├── index.html
-│       ├── neon-city.css
-│       ├── neon-city.js
-│       └── BUILD-WINDOWS.md
+│       ├── assets/             # Models, images, and game resources
+│       ├── src/                # Game modules and application logic
+│       ├── index.html          # Main application page
+│       ├── neon-city.css       # Interface styles
+│       ├── neon-city.js        # Main game entry point
+│       └── BUILD-WINDOWS.md    # Windows build instructions
 │
-├── electron-main.cjs
-├── package.json
-├── package-lock.json
-├── GAME_SPEC.md
+├── electron-main.cjs           # Electron entry point
+├── package.json                # Dependencies and scripts
+├── package-lock.json           # Locked dependency versions
+├── GAME_SPEC.md                # Official game specification
+├── README.md
 └── .gitignore
 ```
 
-### Main Directories and Files
+## Project Documentation
 
-- `prototype/neon-city/`: Main game implementation.
-- `assets/`: 3D models, images, videos, and other visual resources.
-- `src/`: Application modules and components.
-- `electron-main.cjs`: Electron application entry point and configuration.
-- `GAME_SPEC.md`: Game design and functionality specification.
-- `package.json`: Project dependencies and execution/build scripts.
-
-## Architecture
-
-CODE RACE runs locally, without requiring a remote backend or database. Game resources are loaded locally, and match progress is stored on the user's device.
+- [Game Specification](GAME_SPEC.md) — Gameplay rules, mechanics, and design requirements.
+- [Windows Build Guide](prototype/neon-city/BUILD-WINDOWS.md) — Instructions for generating Windows distributions.
 
 ## Educational Purpose
 
-The project aims to make programming education more engaging and accessible by encouraging logical thinking, problem-solving, collaboration, and the practical application of Python fundamentals.
+CODE RACE was designed to support introductory programming education through collaborative problem-solving and game-based learning.
+
+By combining Python challenges with strategic gameplay, the project encourages logical reasoning, teamwork, and the practical application of programming concepts.
 
 ---
