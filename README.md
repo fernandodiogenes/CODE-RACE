@@ -132,7 +132,9 @@ dist/neon-city/
 
 **Platform note:** The macOS build is configured for ARM64. Windows distributions should be generated in a Windows environment.
 
-For additional Windows build instructions, see [BUILD-WINDOWS.md](prototype/neon-city/BUILD-WINDOWS.md).
+For detailed platform-specific instructions, see:
+- [Windows Build Guide](prototype/neon-city/BUILD-WINDOWS.md)
+- [macOS Build Guide](prototype/neon-city/BUILD-MACOS.md)
 
 ## Project Structure
 
@@ -147,6 +149,7 @@ CODE-RACE/
 │       ├── neon-city.css       # Interface styles
 │       ├── neon-city.js        # Main game entry point
 │       └── BUILD-WINDOWS.md    # Windows build instructions
+│       └── BUILD-MACOS.md      # macOS build instructions
 │
 ├── electron-main.cjs           # Electron entry point
 ├── package.json                # Dependencies and scripts
@@ -160,6 +163,7 @@ CODE-RACE/
 
 - [Game Rulebook](GAME_RULEBOOK.md) — Official rules, house effects, and gameplay instructions.
 - [Windows Build Guide](prototype/neon-city/BUILD-WINDOWS.md) — Instructions for generating Windows distributions.
+- [macOS Build Guide](prototype/neon-city/BUILD-MACOS.md) — Instructions for generating macOS distributions.
 
 ## Educational Purpose
 

@@ -1,24 +1,20 @@
-# CODE RACE — NEON CITY para Windows
+# CODE RACE — NEON CITY for Windows
 
-O desktop usa Electron para abrir o protótipo completo em uma janela maximizada.
-Os arquivos do jogo, modelos, perguntas e a biblioteca Three.js são incluídos no
-pacote; o aplicativo não inicia um servidor local e não precisa de internet para
-carregar esses recursos.
+The desktop application uses Electron to launch the complete prototype in a maximized window.
 
-## Pré-requisitos de desenvolvimento
+The game files, 3D models, question banks, and Three.js library are included in the packaged application. It does not start a local server and does not require an internet connection to load these resources.
 
-- Node.js LTS e npm.
-- Windows 10/11 de 64 bits para validação nativa. O empacotamento também pode
-  ser gerado em macOS com Electron Builder.
-- Acesso à internet durante a instalação das dependências e o primeiro build do
-  Electron Builder, que baixa o runtime e as ferramentas do empacotador.
+## Development prerequisites
 
-Esses pré-requisitos são apenas para desenvolvimento/empacotamento. Quem instala
-o jogo não precisa de Node.js, npm, VS Code ou servidor.
+- Node.js LTS and npm.
+- Windows 10/11 (64-bit) for native validation. The package can also be built on macOS using Electron Builder.
+- Internet access during dependency installation and the first Electron Builder build, as it downloads the Electron runtime and packaging tools.
 
-## Comandos
+These prerequisites are only required for development and packaging. Players do not need Node.js, npm, VS Code, or a server to install and run the game.
 
-Na raiz do projeto:
+## Commands
+
+Run the following commands from the project root:
 
 ```sh
 npm ci
@@ -28,42 +24,43 @@ npm run build:win:installer
 npm run build:win:portable
 ```
 
-`npm run dev` abre o aplicativo Electron durante o desenvolvimento.
-`npm run test:desktop` executa o smoke test do desktop, incluindo inicialização
-3D, persistência, gameplay básico e apresentação/dispensa de um evento global.
-`npm run build:win` gera os dois alvos Windows x64 de uma vez.
+- `npm run dev` launches the Electron application in development mode.
+- `npm run test:desktop` runs the desktop smoke test, including 3D initialization, persistence, basic gameplay, and the presentation and dismissal of a global event.
+- `npm run build:win` generates both Windows x64 targets.
 
-O instalador NSIS e o executável portátil são gravados em `dist/neon-city/`:
+The NSIS installer and portable executable are saved to `dist/neon-city/`:
 
 - `CODE-RACE-NEON-CITY-1.0.0-win-x64-setup.exe`
 - `CODE-RACE-NEON-CITY-1.0.0-win-x64-portable.exe`
 
-O instalador é configurado para instalação por usuário, com atalho na Área de
-Trabalho e no Menu Iniciar. O pacote é unsigned enquanto não houver certificado
-de assinatura digital configurado; o Windows poderá exibir o aviso padrão para
-aplicativos sem assinatura.
-Como o projeto não fornece um ícone de aplicativo, o Electron Builder usa o
-ícone padrão do Electron.
+The installer is configured for per-user installation, with shortcuts on the Desktop and in the Start Menu.
 
-## Dados e execução offline
+The application is unsigned because no code-signing certificate is configured. Windows may display its standard warning for unsigned applications.
 
-O progresso salvo continua no `localStorage` do perfil persistente do Electron,
-sob o diretório de dados do usuário do aplicativo. Não é salvo dentro da pasta
-de instalação.
+Since the project does not provide an application icon, Electron Builder uses the default Electron icon.
 
-Three.js e seus addons são importados da dependência local incluída no pacote.
-Modelos, texturas, imagens e bancos de perguntas do protótipo também são
-empacotados. O build não inclui as pastas de referência, testes automatizados ou
-arquivos de auditoria de perguntas.
+## Data and offline execution
 
-O protótipo atualmente mostra um espaço reservado para o vídeo de lore; o arquivo
-`assets/intro/video/neon-city-lore.mp4` não está presente no projeto. A ausência
-desse vídeo não bloqueia o jogo nem exige conexão externa.
+Saved progress is stored in `localStorage` within Electron's persistent user profile, under the application's user data directory. It is not stored inside the installation folder.
 
-## Verificação em Windows
+Three.js and its addons are imported from the local dependency included in the package. The prototype's models, textures, images, and question banks are also packaged.
 
-Depois de gerar o instalador, instale e execute-o em um computador Windows sem
-Node.js e sem VS Code. Verifique o carregamento da cidade 3D, personagens,
-perguntas, modal e rolagem, HACKs, eventos globais, salvar/reabrir partida e
-encerramento pelo botão Fechar. O build feito em outro sistema operacional não
-substitui esse teste nativo.
+The build excludes reference folders, automated tests, and question audit files.
+
+The prototype currently displays a placeholder for the lore video. The file `assets/intro/video/neon-city-lore.mp4` is not included in the project. Its absence does not prevent the game from running or require an external connection.
+
+## Windows verification
+
+After generating the installer, install and run it on a Windows computer without Node.js or VS Code.
+
+Verify the following:
+
+- 3D city loading.
+- Character rendering.
+- Question loading.
+- Modal behavior and scrolling.
+- Hacks and global events.
+- Saving and reopening a game.
+- Application shutdown using the Close button.
+
+A build generated on another operating system does not replace native Windows testing.
