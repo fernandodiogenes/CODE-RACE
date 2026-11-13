@@ -5,6 +5,7 @@
 A team-based educational programming game set in **NEON CITY**, a cyberpunk-inspired 3D world where players learn Python through challenges, strategy, and collaboration.
 
 ![CODE RACE — NEON CITY Gameplay](Screenshot_NeonCity.png)
+![CODE RACE — Programming Challenge](Screenshot_QuestionModal.png)
 
 ## About the Project
 
